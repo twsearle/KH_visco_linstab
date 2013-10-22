@@ -1,0 +1,103 @@
+%
+%   The Story of a Kelvin-Helmholtz like viscoelastic instability
+%   Last modified: Mon 21 Oct 11:00:34 2013
+
+%   PREAMBLE:
+\documentclass{article}
+\usepackage{amsmath, amssymb}
+%   MY MATH MACROS 
+\newcommand{\dt}[1]{\frac{d #1}{d t}} %time deriv
+\newcommand{\dy}[1]{\frac{\partial #1}{\partial y}}
+
+
+\begin{document}
+\title{Viscoelastic Kelvin-Helmholtz instability}
+
+\maketitle
+
+Turbulence without inertia in viscoelastic fluids has generated much interest since it was discovered in Taylor-Couette flow by Larson, Shaqfeh and Muller in 1990 \cite{Larson1990}. As well as this numerical and experimental study of Taylor-Couette flow, Groisman and Steinberg \cite{Groisman2000} discovered turbulence in viscoelastic fluids between two counter rotating plates.
+
+For a long time it was thought that the elasticity of a viscoelastic fluid only served to dampen instability. It was observed that the drag in fluid could be reduced by the addition of small amounts of viscoelastic fluid. This drag reduction has been much studied over the last 70 years. However, the studies above give reason to believe that viscoelastic turbulence is present at very low Reynolds number, where it is driven by the elasticity of the polymeric fluid rather than its inertia.
+
+In 1997 Fabian Waleffe identified a Newtonian self sustaining process in plane Couette flow \cite{Waleffe97}. Streamwise rolls redistribute the streamwise velocity into a streaky flow. This streaky flow is unstable through a Kelvin-Helmholtz instability creating a three dimensional perturbation which in turn re-energises the original streamwise rolls. This exact solution to the Navier-Stokes equations is thought to be a component of the transition to turbulence. In 1998 Waleffe constructed a bifurcation diagram for this exact solution \cite{Waleffe98} containing what looks like a bifurcation from infinity. This is the behaviour expected of the transition to turbulence in Couette flow.
+
+Using this work in Newtonian fluid dynamics as a template for the structure of purely elastic turbulence reveals a similar pattern of streaks and, hopefully, a similar self-sustaining process. An important step towards explaining this process in purely elastic flows is establishing the mechanism by which the streaks become unstable. Presumably, this will also be a Kelvin-Helmholtz instability as the streaks shear with the rest of the fluid. To explore this mechanism in the purely elastic regime we have constructed a simple model system of a shearing viscoelastic fluid.
+
+The Kelvin-Helmholtz instability is fundamental to Newtonian fluids, and is often integral to the transition to turbulence in these fluids. It is hoped that by finding a purely elastic version of this instability, we might be able to probe one of the important mechanisms for the transition to purely elastic turbulence.
+
+The key dimensionless number for turbulence without inertia in Viscoelastic flows is the Weissenberg number, which is the ratio of the normal stress to the shear stress of the polymer component of the fluid $Wi = \frac{N_{1}}{\sigma}$. For small shear rates, this is approximately equivalent to $Wi \approx \lambda \dot{\gamma} = De$ where $\dot{\gamma}$ is the shear rate and $De$ is the Deborah number. 
+
+We present a linear stability analysis of the Kelvin-Helmholtz instability in the purely elastic regime using direct numerical simulation of both the Oldroyd-B and FENE-CR constitutive models for a polymeric fluid. The purely elastic fluid is found to be unstable at sufficiently high numbers of the dimensionless parameter, the Weissenberg number. The growth rate of the largest growing eigenmode of the instability is found to increase with increasing Weissenberg number for low Reynold's number. This behaviour is consistent across both the Oldroyd-B and FENE-CR models.
+
+The system we use for our analysis uses a hyperbolic tangent shaped laminar profile for the streamwise velocity across a channel, where the instability takes place between $y = \pm \Delta$. $y=0$ is the centreline of the channel, so that if $\Delta << 1$ the flow can be said to be a free shear instability. This gives a base flow profile,
+\begin{align}
+    U(y) &= \tanh \left( y/\Delta \right) \coth \left( 1/\Delta \right) \nonumber\\
+    V &= 0 \nonumber \\
+    T_{xx}(y) &= 2 Wi \left( \dy{U} \right)^{2} \nonumber \\
+    T_{xy}(y) &= \dy{U} \nonumber \\
+    T_{yy}(y) &= 0 \nonumber 
+    \label{eq:KH_laminar_profile}
+\end{align}
+
+We use Gauss-Labatto points in the wall-normal ($y$) direction for the base profile, and decomposed the disturbances to this flow into Fourier modes.
+\begin{equation}
+    g(y) = \sum\limits_{n=-N}^{N} \widetilde{g}(y) e^{ikx + \lambda t}
+\end{equation}
+for all disturbance variables $g = u, v, p, \tau_{i,j}$. Where $N$ is the number of Fourier modes, $k$ is the streamwise wavenumber of the disturbance and $\lambda$ is the growth rate of the mode. This code uses two domains of pseudo-spectral points to give increased resolution in the centre of the simulation. The simulation was also repeated using a code for which the system of points was stretched using:
+\begin{align}
+    z_{u} &= \frac{y_{u}}{1-y_{u}} \\
+    z_{b} &= \frac{y_{b}}{1+y_{b}} \\
+    U     &= \tanh{z/\Delta} 
+    \label{eq:KH_inf_profile}
+\end{align}
+This system ought to be completely insensitive to the boundary conditions on the flow and so also behave as a free shear instability. 
+
+The dimensionless quantities used throughout are non-dimensionalised relative to the instability size, $\Delta$, rather than the total simulation size. The obvious reason for this is that $\Delta$ is the length scale for the free shear instability.
+
+In order to simulate this flow, we used an Oldroyd-B fluid with very low Reynolds number $Re < 0.01$ and a small ratio between the solvent and total viscosities $\beta = \frac{\mu_{s}}{\mu_{s}+\mu_{p}}$. This approximates a purely elastic fluid, where the polymer contribution to the dynamics is higher than the solvent contribution. The Oldroyd-B Navier stokes and constitutive equations are then:
+\begin{align}
+    Re \left[ \dt{\mathbf{v}} + \mathbf{v} \cdot \nabla  \mathbf{v} \right] &= - \nabla p + \beta \nabla^{2} \mathbf{v} + \frac{1-\beta}{Wi} \nabla \cdot \mathbf{\tau} \\
+    \dot{\tau}/Wi + \overset{\nabla}\tau &= \left(\nabla \mathbf{v}\right)^{T} + \nabla{\mathbf{v}}
+\end{align}
+With $Wi$ denoting the Weissenberg number and $\tau$ the stress in the polymeric fluid. The FENE-CR viscoelastic fluid has the advantage of being similarly easy to simulate, but also including a finite extensibility for the polymers. This leads to a stress which depends on a conformation tensor ($\mathbf{C}$) for the polymer dumbbells via a non-linear spring force:
+
+\begin{equation}
+    \mathbf{\tau} = \frac{1-\frac{3}{L^{2}}}{1 + \frac{L^{2}}{tr(\mathbf{C^{2}})}}
+\end {equation}
+
+\section{Drag reduction}
+
+We see a reduction in the height of the instability with increasing Weissenberg number at high Reynolds number and high $\beta$. This is consistent with the addition of a small amount of polymeric fluid reducing the instability of a Newtonian Kelvin-Helmholtz flow. Presumably, this would bring about drag reduction on the walls and delay the onset of the turbulence to larger Reynold's number. This is further confirming evidence for the model when the Reynold's number is high.
+
+\section{The Purely Elastic Instability}
+
+At low Reynolds number, low $\beta$ and sufficiently large Weissenberg number we observe an instability across a range of streamwise disturbance wavenumbers. This leads us to suppose that this instability might be a plausible reason for the instability in viscoelastic plane Couette flow, similar to that observed by Waleffe.
+
+The instability remains unchanged under variation of $\Delta$ at low $\Delta$, proving that it is a free shear instability. Although the instability appears to require some inertia in the fluid, it is still present for  $Re = 0.01$  - far lower than the usual threshold of $Re = 1000$ for a Newtonian Kelvin-Helmholtz instability.
+
+We found that the instability sets in at approximately $Wi = 15$ for $\beta = 0.1$, and that this onset Weissenberg number stays the same up to about $\beta = 0.6$ after which it quickly rises. This suggests that there is a concentration of polymers required in the fluid in order to enable the viscoelastic version of the instability. 
+
+The dispersion relation saturates at $Wi \sim 50$ and remains approximately constant with increasing Weissenberg number. The dispersion relation for the instability remains broad in $k$ until $Wi \sim 100$ where a new eigenvector becomes dominant. At this point the old peak decreases in size and the new, much narrower, peak stays the same height. It is unclear what this means for the instability at this point.
+
+If we examine the eigenvectors of the instability, we see that there are very large polymer stresses in the $\pm \Delta$ region. This corresponds to the large shear rate brought about as the two flows pass each other. Examining the flow field, we see that there are large vortices arranged with opposite rotational directions above and below the shear region. 
+
+\section{Varying the distance of the channel walls}
+
+Dependence of the instability on the channel walls persists at very small $\Delta$. We believe that this is due to the inertial effects at low Reynold's number being so weak. This means it is very easy to move the fluid even in at a low shear rate, far from the centre of the channel. I think that the shear rate in the wall normal direction is only less than that in the streamwise direction close to the walls at low Re. The inertial effects must reduce the velocity of the fluid far from the walls so that it can feel the effect of the streamwise component of the velocity gradient.
+
+All of this goes to say why it is difficult to see the instability at $Re = 0$. As the Reynold's number is reduced the walls become more important to the instability. In order to remove the dependence on the walls and recover a free shear instability it is necessary to move them further away. This problem gets worse at lower $Re$. By introducing just a very small contribution from inertia, we can remove the dependence on the walls. This is why all of our results are taken for $\Re \leq 0.1$ on the length scale of the instability.
+
+The reason we have have the simulation with the walls at all is because of the implications for the plane Couette problem. The Kelvin-Helmholtz instability in the Newtonian problem takes place on a length scale of about 10\% of the width of the channel, or $\Delta = 0.1$. The viscoelastic Kelvin-Helmholtz instability is sensitive to the walls at this $\Delta$ and a $Re \lesssim 10$. This means that on the scale of the channel $Re \gtrsim 100$ for the walls not to affect the instability. So, the important results for the purely elastic instability from the point of view of the plane Couette problem are probably those for which the walls are relevant. 
+
+
+\section{Consistency with the FENE-CR model}
+
+The finite extensibility version of the model gives good agreement with the Oldroyd-B version. Shorter lengths bring about a larger instability but do not delay it to higher Weissenberg number. Otherwise similar dispersion relations are observed with a similar dependence on the distance to the walls.
+
+\section{Conclusion}
+
+In conclusion, we can say that there is a Kelvin-Helmholtz like instability for purely elastic shear flows. The unstable region is much larger than that seen in Newtonian fluids relative to the region of shear. The wavenumber of the instability is much smaller in the viscoelastic case ($k<0.06$), suggesting a larger minimal flow unit is required in viscoelastic fluids. This instability is enhanced by introducing a finite extensibility to the polymers. The instability has grown to its maximum by the time it reaches an effective Weissenberg number $ Wi \sim 50$ after which it is saturated. The instability is also strongly dependent on the walls at low effective Reynold's number.
+
+\end{document}
+
+
