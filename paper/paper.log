@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  22 OCT 2013 13:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 OCT 2013 10:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -225,20 +225,7 @@ Found the 'amsbsy' package on the system, using it.
 \astrutbox=\box29
 \c@lemma=\count110
 \c@corollary=\count111
-(./paper.aux
-
-LaTeX Warning: Label `fig:inf_low_Re' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:inf_low_Re' multiply defined.
-
-
-LaTeX Warning: Label `fig:KH_purely_elastic' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:KH_purely_elastic' multiply defined.
-
-)
+(./paper.aux)
 \openout1 = `paper.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
@@ -253,7 +240,8 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
 LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
 LaTeX Font Info:    ... okay on input line 156.
- (/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+
+(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen128
@@ -352,224 +340,208 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 File: ./images/KH_diagram.pdf Graphic file (type pdf)
 
 <use ./images/KH_diagram.pdf>
-Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 222.
+Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 220.
 (pdftex.def)             Requested size: 115.20117pt x 165.24915pt.
 
-<KH_dispersion.pdf, id=27, 452.00002pt x 279.35136pt>
-File: KH_dispersion.pdf Graphic file (type pdf)
- <use KH_dispersion.pdf>
-Package pdftex.def Info: KH_dispersion.pdf used on input line 229.
-(pdftex.def)             Requested size: 192.0pt x 118.6652pt.
-
-[3 <./images/KH_diagram.pdf> <./KH_dispersion.pdf
-
-pdfTeX warning: pdflatex (file ./KH_dispersion.pdf): PDF inclusion: multiple pd
-fs with page group included in a single page
->] <./images/inf_purely_elastic.pdf, id=84, 451.6875pt x 279.14288pt>
+<./images/inf_purely_elastic.pdf, id=27, 451.6875pt x 279.14288pt>
 File: ./images/inf_purely_elastic.pdf Graphic file (type pdf)
 
 <use ./images/inf_purely_elastic.pdf>
-Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 254
+Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 239
 .
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Re.pdf, id=85, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Re.pdf, id=28, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Re.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Re.pdf used on input line
- 261.
+ 246.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_vary_Re.pdf, id=86, 451.6875pt x 279.14288pt>
+<./images/inf_vary_Re.pdf, id=29, 451.6875pt x 279.14288pt>
 File: ./images/inf_vary_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_vary_Re.pdf>
-Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 274.
+Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 259.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Wi.pdf, id=87, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Wi.pdf, id=30, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Wi.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Wi.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Wi.pdf used on input line
- 281.
+ 266.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/psi_low_delta.pdf, id=88, 722.7pt x 317.98799pt>
+ [3 <./images/KH_diagram.pdf>]
+<./images/psi_low_delta.pdf, id=56, 722.7pt x 317.98799pt>
 File: ./images/psi_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/psi_low_delta.pdf>
-Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 296.
+Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 283.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
 
-<./images/txx_low_delta.pdf, id=89, 722.7pt x 317.98799pt>
+<./images/txx_low_delta.pdf, id=57, 722.7pt x 317.98799pt>
 File: ./images/txx_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/txx_low_delta.pdf>
-Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 303.
+Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 290.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
  [4 <./images/inf_purely_elastic.pdf> <./images/inf_dispersions_low_Re.pdf
 
 pdfTeX warning: pdflatex (file ./images/inf_dispersions_low_Re.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] [5 <./images/inf_vary_Re.pdf> <./images/inf_dispersions_low_Wi.pdf
+> <./images/inf_vary_Re.pdf
+
+pdfTeX warning: pdflatex (file ./images/inf_vary_Re.pdf): PDF inclusion: multip
+le pdfs with page group included in a single page
+> <./images/inf_dispersions_low_Wi.pdf
 
 pdfTeX warning: pdflatex (file ./images/inf_dispersions_low_Wi.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
-> <./images/psi_low_delta.pdf
-
-pdfTeX warning: pdflatex (file ./images/psi_low_delta.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
-> <./images/txx_low_delta.pdf
-
-pdfTeX warning: pdflatex (file ./images/txx_low_delta.pdf): PDF inclusion: mult
-iple pdfs with page group included in a single page
->] <./images/KH_vary_delta.pdf, id=545, 451.6875pt x 279.14288pt>
+>] <./images/KH_vary_delta.pdf, id=108, 451.6875pt x 279.14288pt>
 File: ./images/KH_vary_delta.pdf Graphic file (type pdf)
 
 <use ./images/KH_vary_delta.pdf>
-Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 314.
+Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 301.
 (pdftex.def)             Requested size: 384.0pt x 237.32367pt.
 
-<./images/psi_high_delta.pdf, id=546, 722.7pt x 317.98799pt>
+<./images/psi_high_delta.pdf, id=109, 722.7pt x 317.98799pt>
 File: ./images/psi_high_delta.pdf Graphic file (type pdf)
 
 <use ./images/psi_high_delta.pdf>
-Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 321.
+Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 308.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
+ [5 <./images/psi_low_delta.pdf> <./images/txx_low_delta.pdf
+
+pdfTeX warning: pdflatex (file ./images/txx_low_delta.pdf): PDF inclusion: mult
+iple pdfs with page group included in a single page
+>] <./images/vary_Re_delta_conv.pdf, id=503, 451.6875pt x 279.14288pt>
+File: ./images/vary_Re_delta_conv.pdf Graphic file (type pdf)
+
+<use ./images/vary_Re_delta_conv.pdf>
+Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 319
+.
+(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+
+<./images/KH_purely_elastic.pdf, id=504, 451.6875pt x 279.14288pt>
+File: ./images/KH_purely_elastic.pdf Graphic file (type pdf)
+
+<use ./images/KH_purely_elastic.pdf>
+Package pdftex.def Info: ./images/KH_purely_elastic.pdf used on input line 330.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_low_Wi_vary_Re.pdf, id=505, 451.6875pt x 279.14288pt>
+File: ./images/KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
+
+<use ./images/KH_low_Wi_vary_Re.pdf>
+Package pdftex.def Info: ./images/KH_low_Wi_vary_Re.pdf used on input line 337.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_onset_beta_Wi.pdf, id=506, 451.6875pt x 279.14288pt>
+File: ./images/KH_onset_beta_Wi.pdf Graphic file (type pdf)
+
+<use ./images/KH_onset_beta_Wi.pdf>
+Package pdftex.def Info: ./images/KH_onset_beta_Wi.pdf used on input line 344.
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+Underfull \vbox (badness 5563) has occurred while \output is active []
+
  [6 <./images/KH_vary_delta.pdf> <./images/psi_high_delta.pdf
 
 pdfTeX warning: pdflatex (file ./images/psi_high_delta.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] <./images/vary_Re_delta_conv.pdf, id=622, 451.6875pt x 279.14288pt>
-File: ./images/vary_Re_delta_conv.pdf Graphic file (type pdf)
+>] [7 <./images/vary_Re_delta_conv.pdf> <./images/KH_purely_elastic.pdf
 
-<use ./images/vary_Re_delta_conv.pdf>
-Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 332
-.
-(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+pdfTeX warning: pdflatex (file ./images/KH_purely_elastic.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./images/KH_low_Wi_vary_Re.pdf
 
-<KH_purely_elastic.pdf, id=623, 451.6875pt x 279.14288pt>
-File: KH_purely_elastic.pdf Graphic file (type pdf)
+pdfTeX warning: pdflatex (file ./images/KH_low_Wi_vary_Re.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+> <./images/KH_onset_beta_Wi.pdf
 
-<use KH_purely_elastic.pdf>
-Package pdftex.def Info: KH_purely_elastic.pdf used on input line 343.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+pdfTeX warning: pdflatex (file ./images/KH_onset_beta_Wi.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>] <./images/FENE_purely_elastic.pdf, id=632, 451.6875pt x 279.14288pt>
+File: ./images/FENE_purely_elastic.pdf Graphic file (type pdf)
 
-<KH_low_Wi_vary_Re.pdf, id=624, 451.6875pt x 279.14288pt>
-File: KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
-
-<use KH_low_Wi_vary_Re.pdf>
-Package pdftex.def Info: KH_low_Wi_vary_Re.pdf used on input line 350.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<KH_low_Re_vary_Wi.pdf, id=625, 451.6875pt x 279.14288pt>
-File: KH_low_Re_vary_Wi.pdf Graphic file (type pdf)
-
-<use KH_low_Re_vary_Wi.pdf>
-Package pdftex.def Info: KH_low_Re_vary_Wi.pdf used on input line 357.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<KH_onset_beta_Wi.pdf, id=626, 452.00002pt x 279.35136pt>
-File: KH_onset_beta_Wi.pdf Graphic file (type pdf)
-
-<use KH_onset_beta_Wi.pdf>
-Package pdftex.def Info: KH_onset_beta_Wi.pdf used on input line 364.
-(pdftex.def)             Requested size: 184.31836pt x 113.91672pt.
-
-<./images/FENE_low_Re_vary_Wi.pdf, id=627, 451.6875pt x 279.14288pt>
-File: ./images/FENE_low_Re_vary_Wi.pdf Graphic file (type pdf)
-
-<use ./images/FENE_low_Re_vary_Wi.pdf>
-Package pdftex.def Info: ./images/FENE_low_Re_vary_Wi.pdf used on input line 37
+<use ./images/FENE_purely_elastic.pdf>
+Package pdftex.def Info: ./images/FENE_purely_elastic.pdf used on input line 35
 9.
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
 
-<./images/high_Re_vary_delta.pdf, id=628, 451.6875pt x 279.14288pt>
+<./images/high_Re_vary_delta.pdf, id=633, 451.6875pt x 279.14288pt>
 File: ./images/high_Re_vary_delta.pdf Graphic file (type pdf)
 
 <use ./images/high_Re_vary_delta.pdf>
-Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 388
+Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 368
 .
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
 
-<KH_high_Re_vary_Wi.pdf, id=629, 451.6875pt x 279.14288pt>
-File: KH_high_Re_vary_Wi.pdf Graphic file (type pdf)
+<./images/KH_high_Re_vary_Wi.pdf, id=634, 451.6875pt x 279.14288pt>
+File: ./images/KH_high_Re_vary_Wi.pdf Graphic file (type pdf)
 
-<use KH_high_Re_vary_Wi.pdf>
-Package pdftex.def Info: KH_high_Re_vary_Wi.pdf used on input line 403.
+<use ./images/KH_high_Re_vary_Wi.pdf>
+Package pdftex.def Info: ./images/KH_high_Re_vary_Wi.pdf used on input line 383
+.
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+ [8 <./images/FENE_purely_elastic.pdf> <./images/high_Re_vary_delta.pdf
 
-Underfull \vbox (badness 1824) has occurred while \output is active []
-
- [7 <./images/vary_Re_delta_conv.pdf>] [8 <./KH_purely_elastic.pdf> <./KH_low_W
-i_vary_Re.pdf
-
-pdfTeX warning: pdflatex (file ./KH_low_Wi_vary_Re.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./KH_low_Re_vary_Wi.pdf
-
-pdfTeX warning: pdflatex (file ./KH_low_Re_vary_Wi.pdf): PDF inclusion: multipl
-e pdfs with page group included in a single page
-> <./KH_onset_beta_Wi.pdf
-
-pdfTeX warning: pdflatex (file ./KH_onset_beta_Wi.pdf): PDF inclusion: multiple
- pdfs with page group included in a single page
-> <./images/FENE_low_Re_vary_Wi.pdf
-
-pdfTeX warning: pdflatex (file ./images/FENE_low_Re_vary_Wi.pdf): PDF inclusion
-: multiple pdfs with page group included in a single page
->]
+pdfTeX warning: pdflatex (file ./images/high_Re_vary_delta.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] (./paper.bbl)
 
 Package natbib Warning: There were undefined citations.
 
-[9 <./images/high_Re_vary_delta.pdf> <./KH_high_Re_vary_Wi.pdf
+[9 <./images/KH_high_Re_vary_Wi.pdf>] (./paper.aux
 
-pdfTeX warning: pdflatex (file ./KH_high_Re_vary_Wi.pdf): PDF inclusion: multip
-le pdfs with page group included in a single page
->] (./paper.aux)
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
 
-LaTeX Warning: There were multiply-defined labels.
-
- ) 
+) ) 
 Here is how much of TeX's memory you used:
  4620 strings out of 493488
- 67413 string characters out of 3141326
- 130908 words of memory out of 3000000
- 7853 multiletter control sequences out of 15000+200000
- 14354 words of font info for 55 fonts, out of 3000000 for 9000
+ 67430 string characters out of 3141326
+ 128876 words of memory out of 3000000
+ 7849 multiletter control sequences out of 15000+200000
+ 15308 words of font info for 58 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,38p,1036b,465s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></
-usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></us
-r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loc
-al/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local
-/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/t
-exlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/tex
-live/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texli
-ve/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/
-2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/201
-2/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texm
-f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-dist/font
-s/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/urw/ncntrsbk/uncri8a.pfb>
-Output written on paper.pdf (9 pages, 1505434 bytes).
+ 38i,11n,38p,881b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
+b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
+></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><
+/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></u
+sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
+/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
+local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
+ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/lo
+cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loca
+l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
+texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
+xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
+ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
+e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
+012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
+ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fon
+ts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
+1/urw/ncntrsbk/uncri8a.pfb>
+Output written on paper.pdf (9 pages, 1602388 bytes).
 PDF statistics:
- 811 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
+ 760 PDF objects out of 1000 (max. 8388607)
+ 274 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 91 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 81 words of extra memory for PDF output out of 10000 (max. 10000000)
 
