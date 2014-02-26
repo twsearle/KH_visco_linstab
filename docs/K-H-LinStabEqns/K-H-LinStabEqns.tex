@@ -1,0 +1,65 @@
+% Linear stability equations for a 1D Flow %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass[12,a4paper]{article}
+
+%packages
+\usepackage{amsmath}
+
+%my macros
+\newcommand{\su}{\delta u}
+\newcommand{\sv}{\delta v}
+\newcommand{\spr}{\delta p}
+\newcommand{\stxx}{\delta \tau_{xx}}
+\newcommand{\styy}{\delta \tau_{yy}}
+\newcommand{\stxy}{\delta \tau_{xy}}
+\newcommand{\dy}[1]{\frac{\partial #1}{\partial y}}
+\newcommand{\laplacian}{\left(-k^{2} + \frac{\partial^{2}}{\partial y^{2}} \right)}
+
+\begin{document}
+\title{Linear Stability Equations for 2D flow between two plates}
+\maketitle
+
+\begin{equation}
+ (v_{x}, v_{y}) = (U,V) + (\su, \sv)e^{ikx + \lambda t}
+\end{equation}
+\begin{equation}
+\tau_{ij} = T_{ij} + \delta \tau_{ij} e^{ikx + \lambda t}
+\end{equation}
+
+NAVIER STOKES X DIRECTION:
+\begin{multline}
+  -Re \left[ ikU\su + \sv \dy{U} \right] - ik\spr + \beta\laplacian\su \\
+  + (1 - \beta)\left( ik\stxx + \dy{\stxy}\right) = Re \lambda \su
+\end{multline}
+
+NAVIER STOKES Y DIRECTION:
+\begin{multline}
+  -Re ikU\sv - \dy{\spr} + \beta\laplacian\sv \\
+  + (1 - \beta)\left( ik\stxy + \dy{\styy}\right) = Re \lambda \sv
+\end{multline}
+
+INCOMPRESSIBILITY:
+\begin{equation}
+ik\su +\dy{\sv} = 0 
+\end{equation}
+
+XX EQUATION:
+\begin{multline}
+	W_{i} \left[ Uik\stxx + \sv\dy{T_{xx}} - 2ik\su T_{xx} - 2T_{xy}\dy{\su}  - 2\stxy \dy{U}
+ \right]\\
+-2ik\su +\stxx = -W_{i} \lambda \stxx
+\end{multline}
+
+YY EQUATION:
+\begin{multline}
+  W_{i} \left[Uik\styy + \sv \dy{T_{yy}} - 2ik\sv T_{xy} - 2\dy{\sv} T_{yy} \right]\\
+  - 2 \dy{\sv} +\styy = -W_{i}\lambda\styy 
+\end{multline}
+
+XY EQUATION:
+\begin{multline}
+	W_{i}  \left[ ikU\stxy + \sv\dy{T_{xy}} -ikT_{xx}\sv -T_{yy}\dy{\su} - \styy\dy{U} \right] \\
+	- ik\sv -\dy{\su} + \stxy = -W_{i}\lambda \stxy 
+\end{multline}
+
+\end{document}
