@@ -15,7 +15,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="KH_diagram.pdf">
+   sodipodi:docname="diagram_inkscape.svg">
   <defs
      id="defs4">
     <marker
@@ -252,9 +252,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.63"
-     inkscape:cx="147.06965"
-     inkscape:cy="278.68669"
+     inkscape:zoom="4.1832422"
+     inkscape:cx="137.50769"
+     inkscape:cy="498.6118"
      inkscape:document-units="px"
      inkscape:current-layer="layer2"
      showgrid="false"
@@ -282,7 +282,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -466,15 +466,15 @@
          id="flowPara4389"> </flowPara></flowRoot>    <text
        xml:space="preserve"
        style="font-size:13.66173172px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       x="17.493"
+       x="39.351929"
        y="203.72429"
        id="text3129"
        sodipodi:linespacing="125%"
-       transform="scale(0.97330315,1.0274291)"><tspan
+       transform="scale(0.97330316,1.0274291)"><tspan
          sodipodi:role="line"
          id="tspan3131"
-         x="17.493"
-         y="203.72429">Delta</tspan></text>
+         x="39.351929"
+         y="203.72429">D</tspan></text>
     <path
        style="fill:none;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Mstart);marker-end:url(#Arrow2Mend)"
        d="m 58.895706,192.07822 0,24.53988"

@@ -1,21 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  29 OCT 2013 10:25
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.1)  14 MAY 2014 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**paper.tex
+**paper
 (./paper.tex
 LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, ge
-rman-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabi
-c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
-h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
-h, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, h
-ungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, ma
-rathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, 
-kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk,
- polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, s
-lovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, 
-welsh, loaded.
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
 (./jfm.cls
 Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
 \halflineskip=\skip41
@@ -36,31 +26,31 @@ Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
 \c@table=\count85
 \c@figure=\count86
 LaTeX Info: Redefining \cite on input line 1072.
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphicx.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -75,17 +65,19 @@ Package: natbib 2000/07/24 7.0a (PWD)
 LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count88
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2012/02/19 v3.2f Customizing captions (AR)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2012/01/12 v1.4b caption3 kernel (AR)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen104
 \captionmargin@=\dimen105
 \captionwidth=\dimen106
-\caption@indent=\dimen107
-\caption@parindent=\dimen108
-\caption@hangindent=\dimen109
+\caption@tempdima=\dimen107
+\caption@indent=\dimen108
+\caption@parindent=\dimen109
+\caption@hangindent=\dimen110
 \abovecaptionskip=\skip50
 \belowcaptionskip=\skip51
 Package caption Info: Unknown document class (or package),
@@ -103,20 +95,20 @@ fdim \wd \@tempboxa >\tw@ \hsize \unhbox \@tempboxa \par \else {\centering \unh
 box \@tempboxa \par }\fi \endgroup \global \rem@fullptfalse \global \bot@figfal
 se .
 \c@ContinuedFloat=\count89
-) (/usr/local/texlive/2012/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2012/01/12 v1.1d Sub-captions (AR)
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count90
 \c@subtable=\count91
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mathtools.sty
-Package: mathtools 2012/04/24 v1.12 mathematical typesetting tools
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mathtools.sty
+Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count92
 \calc@Bcount=\count93
-\calc@Adimen=\dimen110
-\calc@Bdimen=\dimen111
+\calc@Adimen=\dimen111
+\calc@Bdimen=\dimen112
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
 LaTeX Info: Redefining \setlength on input line 76.
@@ -124,42 +116,42 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count94
 \calc@Cskip=\skip54
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/mh/mhsetup.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2000/07/18 v2.13 AMS math features
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
  (./amsgen.sty
 File: amsgen.sty 1995/02/01 v1.2a
 \@emptytoks=\toks16
-\ex@=\dimen112
+\ex@=\dimen113
 )) (./amsbsy.sty
 Package: amsbsy 1995/01/20 v1.2
-\pmbraise@=\dimen113
+\pmbraise@=\dimen114
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
-LaTeX Info: Redefining \frac on input line 211.
+LaTeX Info: Redefining \frac on input line 210.
 \uproot@=\count96
 \leftroot@=\count97
-LaTeX Info: Redefining \overline on input line 307.
+LaTeX Info: Redefining \overline on input line 306.
 \classnum@=\count98
 \DOTSCASE@=\count99
-LaTeX Info: Redefining \ldots on input line 379.
-LaTeX Info: Redefining \dots on input line 382.
-LaTeX Info: Redefining \cdots on input line 467.
+LaTeX Info: Redefining \ldots on input line 378.
+LaTeX Info: Redefining \dots on input line 381.
+LaTeX Info: Redefining \cdots on input line 466.
 \Mathstrutbox@=\box27
 \strutbox@=\box28
-\big@size=\dimen114
-LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
-LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\big@size=\dimen115
+LaTeX Font Info:    Redeclaring font encoding OML on input line 566.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \macc@depth=\count100
 \c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
@@ -170,28 +162,30 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 \column@=\count105
 \maxfields@=\count106
 \andhelp@=\toks18
-\eqnshift@=\dimen115
-\alignsep@=\dimen116
-\tagshift@=\dimen117
-\tagwidth@=\dimen118
-\totwidth@=\dimen119
-\lineht@=\dimen120
+\eqnshift@=\dimen116
+\alignsep@=\dimen117
+\tagshift@=\dimen118
+\tagwidth@=\dimen119
+\totwidth@=\dimen120
+\lineht@=\dimen121
 \@envbody=\toks19
 \multlinegap=\skip56
 \multlinetaggap=\skip57
 \mathdisplay@stack=\toks20
-LaTeX Info: Redefining \[ on input line 2666.
-LaTeX Info: Redefining \] on input line 2667.
+LaTeX Info: Redefining \[ on input line 2665.
+LaTeX Info: Redefining \] on input line 2666.
 )
+LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count107
-\l_MT_multwidth_dim=\dimen121
+\l_MT_multwidth_dim=\dimen122
 \origjot=\skip58
-\l_MT_shortvdotswithinadjustabove_dim=\dimen122
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen123
-\l_MT_above_intertext_dim=\dimen124
-\l_MT_below_intertext_dim=\dimen125
-\l_MT_above_shortintertext_dim=\dimen126
-\l_MT_below_shortintertext_dim=\dimen127
+\l_MT_shortvdotswithinadjustabove_dim=\dimen123
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen124
+\l_MT_above_intertext_sep=\dimen125
+\l_MT_below_intertext_sep=\dimen126
+\l_MT_above_shortintertext_sep=\dimen127
+\l_MT_below_shortintertext_sep=\dimen128
 )
 
 
@@ -241,28 +235,28 @@ LaTeX Font Info:    ... okay on input line 156.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
 LaTeX Font Info:    ... okay on input line 156.
 
-(/usr/local/texlive/2012/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
-\scratchdimen=\dimen128
+\scratchdimen=\dimen129
 \scratchbox=\box30
 \nofMPsegments=\count113
 \nofMParguments=\count114
 \everyMPshowfont=\toks21
 \MPscratchCnt=\count115
-\MPscratchDim=\dimen129
+\MPscratchDim=\dimen130
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -271,22 +265,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2012/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2012/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -298,7 +292,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -306,86 +300,73 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Try loading font information for U+msa on input line 159.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 159.
 
-(/usr/local/texlive/2012/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
-Package natbib Warning: Citation `Larson1990' on page 1 undefined on input line
- 170.
-
-
-Package natbib Warning: Citation `Groisman2000' on page 1 undefined on input li
-ne 170.
-
-
-Package natbib Warning: Citation `Waleffe97' on page 1 undefined on input line 
-174.
-
-
-Package natbib Warning: Citation `Waleffe98' on page 1 undefined on input line 
-174.
+Package natbib Warning: Citation `US!' on page 1 undefined on input line 203.
 
 
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
-[1{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <./images/KH_diagram.pdf, id=26, 244.21237pt x 350.30875pt>
+[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2] <./images/KH_diagram.pdf, id=25, 244.21237pt x 350.30875pt>
 File: ./images/KH_diagram.pdf Graphic file (type pdf)
 
 <use ./images/KH_diagram.pdf>
-Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 220.
+Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 296.
 (pdftex.def)             Requested size: 115.20117pt x 165.24915pt.
-
-<./images/inf_purely_elastic.pdf, id=27, 451.6875pt x 279.14288pt>
+ [3 <./images/KH_diagram.pdf>]
+<./images/inf_purely_elastic.pdf, id=52, 451.6875pt x 279.14288pt>
 File: ./images/inf_purely_elastic.pdf Graphic file (type pdf)
 
 <use ./images/inf_purely_elastic.pdf>
-Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 239
+Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 327
 .
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Re.pdf, id=28, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Re.pdf, id=53, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Re.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Re.pdf used on input line
- 246.
+ 334.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_vary_Re.pdf, id=29, 451.6875pt x 279.14288pt>
+<./images/inf_vary_Re.pdf, id=54, 451.6875pt x 279.14288pt>
 File: ./images/inf_vary_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_vary_Re.pdf>
-Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 259.
+Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 353.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Wi.pdf, id=30, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Wi.pdf, id=55, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Wi.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Wi.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Wi.pdf used on input line
- 266.
+ 360.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
- [3 <./images/KH_diagram.pdf>]
+
 <./images/psi_low_delta.pdf, id=56, 722.7pt x 317.98799pt>
 File: ./images/psi_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/psi_low_delta.pdf>
-Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 283.
+Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 388.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
 
 <./images/txx_low_delta.pdf, id=57, 722.7pt x 317.98799pt>
 File: ./images/txx_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/txx_low_delta.pdf>
-Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 290.
+Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 395.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
  [4 <./images/inf_purely_elastic.pdf> <./images/inf_dispersions_low_Re.pdf
 
@@ -403,14 +384,14 @@ ion: multiple pdfs with page group included in a single page
 File: ./images/KH_vary_delta.pdf Graphic file (type pdf)
 
 <use ./images/KH_vary_delta.pdf>
-Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 301.
+Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 422.
 (pdftex.def)             Requested size: 384.0pt x 237.32367pt.
 
 <./images/psi_high_delta.pdf, id=109, 722.7pt x 317.98799pt>
 File: ./images/psi_high_delta.pdf Graphic file (type pdf)
 
 <use ./images/psi_high_delta.pdf>
-Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 308.
+Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 434.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
  [5 <./images/psi_low_delta.pdf> <./images/txx_low_delta.pdf
 
@@ -420,44 +401,64 @@ iple pdfs with page group included in a single page
 File: ./images/vary_Re_delta_conv.pdf Graphic file (type pdf)
 
 <use ./images/vary_Re_delta_conv.pdf>
-Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 319
+Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 463
 .
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
 
-<./images/KH_purely_elastic.pdf, id=504, 451.6875pt x 279.14288pt>
-File: ./images/KH_purely_elastic.pdf Graphic file (type pdf)
-
-<use ./images/KH_purely_elastic.pdf>
-Package pdftex.def Info: ./images/KH_purely_elastic.pdf used on input line 330.
-
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/KH_low_Wi_vary_Re.pdf, id=505, 451.6875pt x 279.14288pt>
-File: ./images/KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
-
-<use ./images/KH_low_Wi_vary_Re.pdf>
-Package pdftex.def Info: ./images/KH_low_Wi_vary_Re.pdf used on input line 337.
-
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/KH_onset_beta_Wi.pdf, id=506, 451.6875pt x 279.14288pt>
-File: ./images/KH_onset_beta_Wi.pdf Graphic file (type pdf)
-
-<use ./images/KH_onset_beta_Wi.pdf>
-Package pdftex.def Info: ./images/KH_onset_beta_Wi.pdf used on input line 344.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-Underfull \vbox (badness 5563) has occurred while \output is active []
+Underfull \vbox (badness 1490) has occurred while \output is active []
 
  [6 <./images/KH_vary_delta.pdf> <./images/psi_high_delta.pdf
 
 pdfTeX warning: pdflatex (file ./images/psi_high_delta.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [7 <./images/vary_Re_delta_conv.pdf> <./images/KH_purely_elastic.pdf
+>] <./images/KH_purely_elastic.pdf, id=569, 451.6875pt x 279.14288pt>
+File: ./images/KH_purely_elastic.pdf Graphic file (type pdf)
 
-pdfTeX warning: pdflatex (file ./images/KH_purely_elastic.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
-> <./images/KH_low_Wi_vary_Re.pdf
+<use ./images/KH_purely_elastic.pdf>
+Package pdftex.def Info: ./images/KH_purely_elastic.pdf used on input line 480.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_low_Wi_vary_Re.pdf, id=570, 451.6875pt x 279.14288pt>
+File: ./images/KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
+
+<use ./images/KH_low_Wi_vary_Re.pdf>
+Package pdftex.def Info: ./images/KH_low_Wi_vary_Re.pdf used on input line 487.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_onset_beta_Wi.pdf, id=571, 451.6875pt x 279.14288pt>
+File: ./images/KH_onset_beta_Wi.pdf Graphic file (type pdf)
+
+<use ./images/KH_onset_beta_Wi.pdf>
+Package pdftex.def Info: ./images/KH_onset_beta_Wi.pdf used on input line 494.
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/FENE_purely_elastic.pdf, id=572, 451.6875pt x 279.14288pt>
+File: ./images/FENE_purely_elastic.pdf Graphic file (type pdf)
+
+<use ./images/FENE_purely_elastic.pdf>
+Package pdftex.def Info: ./images/FENE_purely_elastic.pdf used on input line 52
+3.
+(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+
+<./images/high_Re_vary_delta.pdf, id=573, 451.6875pt x 279.14288pt>
+File: ./images/high_Re_vary_delta.pdf Graphic file (type pdf)
+
+<use ./images/high_Re_vary_delta.pdf>
+Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 535
+.
+(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+
+<./images/KH_high_Re_vary_Wi.pdf, id=574, 451.6875pt x 279.14288pt>
+File: ./images/KH_high_Re_vary_Wi.pdf Graphic file (type pdf)
+
+<use ./images/KH_high_Re_vary_Wi.pdf>
+Package pdftex.def Info: ./images/KH_high_Re_vary_Wi.pdf used on input line 557
+.
+(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+ (./paper.bbl [7 <./images/vary_Re_delta_conv.pdf>] [8 <./images/KH_purely_elas
+tic.pdf> <./images/KH_low_Wi_vary_Re.pdf
 
 pdfTeX warning: pdflatex (file ./images/KH_low_Wi_vary_Re.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
@@ -465,80 +466,56 @@ multiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./images/KH_onset_beta_Wi.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
->] <./images/FENE_purely_elastic.pdf, id=632, 451.6875pt x 279.14288pt>
-File: ./images/FENE_purely_elastic.pdf Graphic file (type pdf)
+> <./images/FENE_purely_elastic.pdf
 
-<use ./images/FENE_purely_elastic.pdf>
-Package pdftex.def Info: ./images/FENE_purely_elastic.pdf used on input line 35
-9.
-(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
-
-<./images/high_Re_vary_delta.pdf, id=633, 451.6875pt x 279.14288pt>
-File: ./images/high_Re_vary_delta.pdf Graphic file (type pdf)
-
-<use ./images/high_Re_vary_delta.pdf>
-Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 368
-.
-(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
-
-<./images/KH_high_Re_vary_Wi.pdf, id=634, 451.6875pt x 279.14288pt>
-File: ./images/KH_high_Re_vary_Wi.pdf Graphic file (type pdf)
-
-<use ./images/KH_high_Re_vary_Wi.pdf>
-Package pdftex.def Info: ./images/KH_high_Re_vary_Wi.pdf used on input line 383
-.
-(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
- [8 <./images/FENE_purely_elastic.pdf> <./images/high_Re_vary_delta.pdf
-
-pdfTeX warning: pdflatex (file ./images/high_Re_vary_delta.pdf): PDF inclusion:
- multiple pdfs with page group included in a single page
->] (./paper.bbl)
+pdfTeX warning: pdflatex (file ./images/FENE_purely_elastic.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>])
 
 Package natbib Warning: There were undefined citations.
 
-[9 <./images/KH_high_Re_vary_Wi.pdf>] (./paper.aux
+[9 <./images/high_Re_vary_delta.pdf> <./images/KH_high_Re_vary_Wi.pdf
 
-Package natbib Warning: Citation(s) may have changed.
-(natbib)                Rerun to get citations correct.
-
-) ) 
+pdfTeX warning: pdflatex (file ./images/KH_high_Re_vary_Wi.pdf): PDF inclusion:
+ multiple pdfs with page group included in a single page
+>] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 4620 strings out of 493488
- 67430 string characters out of 3141326
- 128876 words of memory out of 3000000
- 7849 multiletter control sequences out of 15000+200000
- 15308 words of font info for 58 fonts, out of 3000000 for 9000
+ 4676 strings out of 493315
+ 68585 string characters out of 6137905
+ 134435 words of memory out of 5000000
+ 8050 multiletter control sequences out of 15000+600000
+ 15308 words of font info for 58 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 38i,11n,38p,881b,464s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pf
-b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
-></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb><
-/usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></u
-sr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr
-/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/
-local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/l
-ocal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/lo
-cal/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/loca
-l/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/
-texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/te
-xlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texl
-ive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texliv
-e/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2
-012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2012
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2012/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2012/texmf
--dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2012/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2012/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2012/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/t
-ype1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2012/texmf-dist/fon
-ts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2012/texmf-dist/fonts/type
-1/urw/ncntrsbk/uncri8a.pfb>
-Output written on paper.pdf (9 pages, 1602388 bytes).
+ 38i,11n,38p,879b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmbx10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmbx5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmbx7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmbx9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+csc10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+ex10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmm
+i10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi
+12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5
+.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.p
+fb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+/usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></u
+sr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/
+local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/
+texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/tex
+live/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texliv
+e/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2
+013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
+3/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2013/tex
+mf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on paper.pdf (9 pages, 1606512 bytes).
 PDF statistics:
  760 PDF objects out of 1000 (max. 8388607)
  274 compressed objects within 3 object streams
