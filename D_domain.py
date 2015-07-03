@@ -3,17 +3,46 @@
 from scipy import *
 from scipy.linalg import inv, solve, eig, det
 import pickle
-
+import argparse
 
 ##------------------------------------
 
 M = 100
 
-Re = 10000
-Wi = 0.01
-bbeta = 0.1
+Re = float(1000.0)
+Wi = float(1.2)
+bbeta = float(0.1)
+kxLo = 0.1
+kxHi = 10.0
+kxStep = 0.1 
 
 _delta = 0.1
+
+argparser = argparse.ArgumentParser()
+
+argparser.add_argument("-M", type=int, default=M, 
+                help='Override Number of Chebyshev modes in the file')
+argparser.add_argument("-Re", type=float, default=Re, 
+                help="Override Reynold's number in the file") 
+argparser.add_argument("-b", type=float, default=bbeta, 
+                help='Override beta of the file')
+argparser.add_argument("-Wi", type=float, default=Wi, 
+                help='Override Weissenberg number of the file')
+argparser.add_argument("-kxLo", type=float, default=kxLo, 
+                help='Override initial wavenumber of the file')
+argparser.add_argument("-kxHi", type=float, default=kxHi, 
+                help='Override final wavenumber of the file')
+argparser.add_argument("-kxStep", type=float, default=kxStep, 
+                help='Override step wavenumber of the file')
+
+args = argparser.parse_args()
+M = args.M
+Re = args.Re
+Wi = args.Wi
+bbeta = args.b
+kxLo = args.kxLo
+kxHi = args.kxHi
+kxStep = args.kxStep
 
 ##------------------------------------
 
@@ -70,7 +99,7 @@ U0down_p = dot(D1,U0down)
 
 
 f=open('b{bbeta}-M{M}-Re{Re}-Wi{Wi}.dat'.format(bbeta=bbeta, M=M, Re=Re,  Wi=Wi),'w')
-for alpha in r_[0.1:10.0:0.1]:
+for alpha in r_[kxLo:kxHi+kxStep:kxStep]:
 
     print alpha
 
