@@ -9,12 +9,12 @@ import argparse
 
 M = 100
 
-Re = float(1000.0)
-Wi = float(1.2)
+Re = float(.1)
+Wi = float(6.0)
 bbeta = float(0.1)
-kxLo = 0.1
-kxHi = 10.0
-kxStep = 0.1 
+kxLo = 0.05
+kxHi = 1.2
+kxStep = 0.05 
 
 _delta = 0.1
 
@@ -28,6 +28,8 @@ argparser.add_argument("-b", type=float, default=bbeta,
                 help='Override beta of the file')
 argparser.add_argument("-Wi", type=float, default=Wi, 
                 help='Override Weissenberg number of the file')
+argparser.add_argument("-delta", type=float, default=_delta, 
+                help='Override delta number of the file')
 argparser.add_argument("-kxLo", type=float, default=kxLo, 
                 help='Override initial wavenumber of the file')
 argparser.add_argument("-kxHi", type=float, default=kxHi, 
@@ -43,6 +45,7 @@ bbeta = args.b
 kxLo = args.kxLo
 kxHi = args.kxHi
 kxStep = args.kxStep
+_delta = args.delta
 
 ##------------------------------------
 

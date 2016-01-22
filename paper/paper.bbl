@@ -1,25 +1,379 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{73}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
+\bibitem[Anturkar {\em et~al.\/}(1990)Anturkar, Papanastasiou \&
+  Wilkes]{Anturkar1990}
+{\sc Anturkar, N.~R., Papanastasiou, T.~C. \& Wilkes, J.~O.} 1990 Stability of
+  multilayer extrusion of viscoelastic liquids. {\em AIChE Journal\/} {\bf
+  36}~(5), 710--724.
+
+\bibitem[Azaiez \& Homsy(1994)]{Azaiez1994}
+{\sc Azaiez, J \& Homsy, GM} 1994 Linear stability of free shear flow of
+  viscoelastic liquids. {\em Journal of Fluid Mechanics\/} .
+
+\bibitem[Beaumont {\em et~al.\/}(2013)Beaumont, Louvet, Divoux, Fardin,
+  Bodiguel, Lerouge, Manneville \& Colin]{Beaumont2013}
+{\sc Beaumont, Julien, Louvet, Nicolas, Divoux, Thibaut, Fardin, Marc-Antoine,
+  Bodiguel, Hugues, Lerouge, Sandra, Manneville, S{\'{e}}bastien \& Colin,
+  Annie} 2013 Turbulent flows in highly elastic wormlike micelles. {\em Soft
+  Matter\/} {\bf 9}~(3), 735--749.
+
+\bibitem[Bonhomme {\em et~al.\/}(2011)Bonhomme, Morozov, Leng \&
+  Colin]{Bonhomme2011}
+{\sc Bonhomme, Oriane, Morozov, Alexander, Leng, Jacques \& Colin, Annie} 2011
+  Elastic instability in stratified core annular flow. {\em Physical Review
+  E\/} {\bf 83}~(6, 2).
+
+\bibitem[Brady \& Carpen(2002)]{Brady2002}
+{\sc Brady, J~F \& Carpen, I~C} 2002 Second normal stress jump instability in
+  non-newtonian fluids. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf
+  102}~(2, SI), 219--232.
+
+\bibitem[Chen(1991{\natexlab{{\em a\/}}})]{Chen1991b}
+{\sc Chen, KangPing} 1991{\natexlab{{\em a\/}}} Elastic instability of the
+  interface in couette flow of viscoelastic liquids. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 40}~(2), 261--267.
+
+\bibitem[Chen(1991{\natexlab{{\em b\/}}})]{Chen1991a}
+{\sc Chen, KangPing} 1991{\natexlab{{\em b\/}}} Interfacial instability due to
+  elastic stratification in concentric coextrusion of two viscoelastic fluids.
+  {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf 40}~(2), 155--175.
+
+\bibitem[Chen \& Crighton(1994)]{Chen1994}
+{\sc Chen, KangPing \& Crighton, D.~G.} 1994 Instability of the large reynolds
+  number flow of a newtonian fluid over a viscoelastic fluid. {\em Physics of
+  Fluids\/} {\bf 6}~(1), 152--163.
+
+\bibitem[Chen(1992)]{Chen1992a}
+{\sc Chen, K~P} 1992 The onset of elastically driven wavy motion in the flow of
+  2 viscoelastic liquid-films down an inclined plane. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 45}~(1), 21--45.
+
+\bibitem[Chen \& Joseph(1992)]{Chen1992b}
+{\sc Chen, K~P \& Joseph, D.~D.} 1992 Elastic short-wave instability in
+  extrusion flows of viscoelastic liquids. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 42}~(1-2), 189--211.
+
+\bibitem[Chen \& Zhang(1993)]{Chen1993}
+{\sc Chen, Kang~Ping \& Zhang, Yi} 1993 Stability of the interface in
+  co-extrusion flow of two viscoelastic fluids through a pipe. {\em Journal of
+  Fluid Mechanics\/} {\bf 247}, 489.
+
+\bibitem[Coward \& Renardy(1997)]{Coward1997}
+{\sc Coward, A.~V. \& Renardy, Y.~Y.} 1997 Thin film core-annular flow of
+  upper-convected maxwell liquids. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 70}, 155--183.
+
+\bibitem[Dubief {\em et~al.\/}(2013)Dubief, Terrapon \& Soria]{Dubief2013}
+{\sc Dubief, Yves, Terrapon, Vincent~E \& Soria, Julio} 2013 On the mechanism
+  of elasto-inertial turbulence. {\em Physics of Fluids\/} {\bf 25}.
+
+\bibitem[Fardin {\em et~al.\/}(2014)Fardin, Perge \& Taberlet]{Fardin2014}
+{\sc Fardin, M.~A., Perge, C. \& Taberlet, N.} 2014 “the hydrogen atom of
+  fluid dynamics” – introduction to the taylor–couette flow for soft
+  matter scientists. {\em Soft Matter\/} {\bf 10}~(20), 3523.
+
+\bibitem[Fielding(2005)]{Fielding2005}
+{\sc Fielding, S~M} 2005 Linear instability of planar shear banded flow. {\em
+  Physical Review Letters\/} {\bf 95}~(13).
+
+\bibitem[Fielding \& Wilson(2010)]{Fielding2010}
+{\sc Fielding, Suzanne~M. \& Wilson, Helen~J.} 2010 Shear banding and
+  interfacial instability in planar poiseuille flow. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 165}~(5-6), 196--202.
+
+\bibitem[Ganpule \& Khomami(1998)]{Ganpule1998}
+{\sc Ganpule, H~K \& Khomami, B} 1998 A theoretical investigation of
+  interfacial instabilities in the three layer superposed channel flow of
+  viscoelastic fluids. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf
+  79}~(2-3), 315--360.
+
+\bibitem[Graham(1999)]{Graham1999}
+{\sc Graham, Michael~D.} 1999 The sharkskin instability of polymer melt flows.
+  {\em Chaos (Woodbury, N.Y.)\/} {\bf 9}~(1), 154--163.
+
 \bibitem[Groisman \& Steinberg(2000)]{Groisman2000}
-{\sc Groisman, A. \& Steinberg, V.} 2000 {Elastic turbulence in a polymer
-  solution flow}. {\em Nature\/} {\bf 405}~(6782), 53--5.
+{\sc Groisman, A. \& Steinberg, V.} 2000 Elastic turbulence in a polymer
+  solution flow. {\em Nature\/} {\bf 405}~(6782), 53--5.
+
+\bibitem[Han(1985)]{Han1985}
+{\sc Han, C} 1985 A study of coextrusion in a circular die. {\em Journal of
+  Applied Polymer Science\/} {\bf 19}, 1875--1883.
+
+\bibitem[Hinch(1984)]{Hinch1984}
+{\sc Hinch, EJ} 1984 A note on the mechanism of the instability at the
+  interface between two shearing fluids. {\em Journal of Fluid Mechanics\/}
+  {\bf 144}, 463--465.
+
+\bibitem[Hinch {\em et~al.\/}(1992)Hinch, Harris \& Rallison]{Hinch1992}
+{\sc Hinch, EJ, Harris, OJ \& Rallison, JM} 1992 The instability mechanism for
+  two elastic liquids being co-extruded. {\em Journal of non-newtonian fluid
+  mechanics\/} {\bf 43}, 311--324.
+
+\bibitem[Hooper(1985)]{Hooper1985}
+{\sc Hooper, a.~P.} 1985 Long-wave instability at the interface between two
+  viscous fluids: Thin layer effects. {\em Physics of Fluids\/} {\bf 28}~(6),
+  1613.
+
+\bibitem[Hooper \& Boyd(1983)]{Hooper1983}
+{\sc Hooper, a.~P. \& Boyd, W. G.~C.} 1983 Shear-flow instability at the
+  interface between two viscous fluids. {\em Journal of Fluid Mechanics\/} {\bf
+  128}~(-1), 507.
+
+\bibitem[Khan(1976)]{Khan1976}
+{\sc Khan, Ashfaq~a.} 1976 On the interface deformation in the stratified
+  two-phase flow of viscoelastic fluids. {\em Journal of Rheology\/} {\bf
+  20}~(4), 595.
+
+\bibitem[Khan \& Han(1977)]{Khan1977}
+{\sc Khan, Ashfaq~A \& Han, Chang D A~E} 1977 A study on the interfacial
+  instability in the stratified flow of two viscoelastic fluids through a
+  rectangular duct. {\em Transactions Of The Society Of Rheology\/} {\bf
+  21}~(1), 101--131.
+
+\bibitem[Khomami \& Ranjbaran(1997)]{Khomami1997}
+{\sc Khomami, B \& Ranjbaran, M~M} 1997 Experimental studies of interfacial
+  instabilities in multilayer pressure-driven flow of polymeric melts. {\em
+  Rheologica Acta\/} {\bf 36}~(4), 345--366.
+
+\bibitem[Khomami {\em et~al.\/}(2000)Khomami, Renardy, Su \&
+  Clarke]{Khomami2000b}
+{\sc Khomami, B, Renardy, Y, Su, K~C \& Clarke, M~A} 2000 An
+  experimental/theoretical investigation of interfacial instabilities in
+  superposed pressure-driven channel flow of newtonian and well characterized
+  viscoelastic fluids part ii: Nonlinear stability. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 91}~(1), 85--104.
+
+\bibitem[Khomami \& Su(2000)]{Khomami2000a}
+{\sc Khomami, B \& Su, K~C} 2000 An experimental/theoretical investigation of
+  interfacial instabilities in superposed pressure-driven channel flow of
+  newtonian and well characterized viscoelastic fluids part i: linear stability
+  and encapsulation effects. {\em Journal of Non-Newtonian Fluid Mechanics\/}
+  {\bf 91}~(1), 59--84.
+
+\bibitem[Larson(1992)]{Larson1992}
+{\sc Larson, R~G} 1992 Instabilities in viscoelastic flows. {\em Rheologica
+  Acta\/} {\bf 31}~(3), 213--263.
 
 \bibitem[Larson {\em et~al.\/}(1990)Larson, Shaqfeh \& Muller]{Larson1990}
-{\sc Larson, R.~G., Shaqfeh, Eric S.~G. \& Muller, S.~J.} 1990 {A purely
-  elastic instability in Taylor Couette flow}. {\em Journal of Fluid
-  Mechanics\/} {\bf 218}, 573.
+{\sc Larson, R.~G., Shaqfeh, Eric S.~G. \& Muller, S.~J.} 1990 A purely elastic
+  instability in taylor couette flow. {\em Journal of Fluid Mechanics\/} {\bf
+  218}, 573.
+
+\bibitem[Laure {\em et~al.\/}(1997)Laure, LeMeur, Demay, Saut \&
+  Scotto]{Laure1997}
+{\sc Laure, P, LeMeur, H, Demay, Y, Saut, J~C \& Scotto, S} 1997 Linear
+  stability of multilayer plane poiseuille flows of oldroyd b fluids. {\em
+  Journal of Non-Newtonian Fluid Mechanics\/} {\bf 71}~(1-2), 1--23.
+
+\bibitem[Li(1969)]{Li1969}
+{\sc Li, Chin-Hsiu} 1969 Stability of two superposed elasticoviscous liquids in
+  plane couette flow. {\em Physics of Fluids\/} {\bf 12}~(3), 531.
+
+\bibitem[Mahdaoui {\em et~al.\/}(2013)Mahdaoui, Laure \&
+  Agassant]{Mahdaoui2013}
+{\sc Mahdaoui, O., Laure, P. \& Agassant, J.-F.} 2013 Numerical investigations
+  of polyester coextrusion instabilities. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 195}, 67--76.
+
+\bibitem[McKinley {\em et~al.\/}(1996)McKinley, Pakdel \&
+  Oztekin]{McKinley1996}
+{\sc McKinley, G~H, Pakdel, P \& Oztekin, A} 1996 Rheological and geometric
+  scaling of purely elastic flow instabilities. {\em Journal of Non-Newtonian
+  Fluid Mechanics\/} {\bf 67}, 19--47.
+
+\bibitem[Mcleish \& Road(1987)]{McLeish1987}
+{\sc Mcleish, T C~B \& Road, Madingley} 1987 Stability of the interface between
+  two dynamic phases in capillary flow of linear polymer melts. {\em Journal of
+  Polymer Science Part B: Polymer Physics\/} {\bf 25}, 2253--2264.
+
+\bibitem[Meulenbroek {\em et~al.\/}(2004)Meulenbroek, Storm, Morozov \& van
+  Saarloos]{Meulenbroek2004}
+{\sc Meulenbroek, Bernard, Storm, Cornelis, Morozov, Alexander~N. \& van
+  Saarloos, Wim} 2004 Weakly nonlinear subcritical instability of visco-elastic
+  poiseuille flow. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf
+  116}~(2-3), 235--268.
+
+\bibitem[Miller \& Rallison(2007{\natexlab{{\em a\/}}})]{Miller2007b}
+{\sc Miller, JC \& Rallison, J.M.} 2007{\natexlab{{\em a\/}}} Instability of
+  coextruded elastic liquids at high weissenberg number. {\em Journal of
+  non-newtonian fluid mechanics\/} {\bf 143}~(2-3), 88--106.
+
+\bibitem[Miller \& Rallison(2007{\natexlab{{\em b\/}}})]{Miller2007a}
+{\sc Miller, J~C \& Rallison, J~M} 2007{\natexlab{{\em b\/}}} Interfacial
+  instability between sheared elastic liquids in a channel. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 143}~(2-3), 71--87.
+
+\bibitem[Nicolas \& Morozov(2012)]{Nicolas2012}
+{\sc Nicolas, Alexandre \& Morozov, Alexander} 2012 Non-axisymmetric
+  instability of shear-banded taylor-couette flow. {\em Physical review
+  letters\/} {\bf cond-mat.s}~(8), 088302.
+
+\bibitem[Pinarbasi \& Liakopoulos(1995)]{Pinarbasi1995}
+{\sc Pinarbasi, A \& Liakopoulos, A} 1995 Stability of 2-layer poiseuille flow
+  of carreau-yasuda and bingham-like fluids. {\em Journal of non-Newtonian
+  Fluid Mechanics\/} {\bf 57}~(2-3), 227--241.
+
+\bibitem[Renardy(2000)]{Renardy2000}
+{\sc Renardy, M} 2000 Current issues in non-newtonian flows: a mathematical
+  perspective. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf 90}~(2-3),
+  243--259.
+
+\bibitem[Renardy(1985)]{Renardy1985}
+{\sc Renardy, Y} 1985 Instability at the interface between two shearing fluids
+  in a channel. {\em Physics of Fluids\/} {\bf 28}~(3441), 20--23.
+
+\bibitem[Renardy(1988)]{Renardy1988}
+{\sc Renardy, Y} 1988 Stability of the interface in two-layer couette flow of
+  upper convected maxwell liquids. {\em J. Non-Newtonian Fluid Mech.\/} {\bf
+  28}, 99--115.
+
+\bibitem[Renardy(1989)]{Renardy1989}
+{\sc Renardy, Y.Y} 1989 Weakly nonlinear behaviour of periodic disturbances in
+  two-layer couette-poiseuille flow. {\em Physics of Fluids\/} {\bf 1}~(10),
+  1666--1676.
+
+\bibitem[Renardy(1995{\natexlab{{\em a\/}}})]{Renardy1995a}
+{\sc Renardy, Yuriko~Yamamuro} 1995{\natexlab{{\em a\/}}} Spurt and instability
+  in a 2-layer johnson-segalman liquid. {\em Theoretical and Computational
+  Fluid Mechanics\/} {\bf 7}~(6), 463--475.
+
+\bibitem[Renardy(1995{\natexlab{{\em b\/}}})]{Renardy1995b}
+{\sc Renardy, Yuriko~Yamamuro} 1995{\natexlab{{\em b\/}}} Weakly nonlinear
+  behavior of periodic disturbances in two-layer plane channel flow of
+  upper-convected maxwell liquids. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 56}~(2), 101--126.
+
+\bibitem[Renardy \& Renardy(1999)]{Renardy1999}
+{\sc Renardy, Y~Y \& Renardy, M} 1999 Instability due to second normal stress
+  jump in two-layer shear flow of the giesekus fluid. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 81}~(3), 215--234.
+
+\bibitem[Samanta {\em et~al.\/}(2013)Samanta, Dubief, Holzner, Sch{\"{a}}fer,
+  Morozov, Wagner \& Hof]{Samanta2013}
+{\sc Samanta, Devranjan, Dubief, Yves, Holzner, Markus, Sch{\"{a}}fer,
+  Christof, Morozov, Alexander~N, Wagner, Christian \& Hof, Bj{\"{o}}rn} 2013
+  Elasto-inertial turbulence. {\em Proceedings of the National Academy of
+  Sciences of the United States of America\/} {\bf 110}~(26), 10557--62.
+
+\bibitem[Scotto \& Laure(1999)]{Scotto1999}
+{\sc Scotto, S \& Laure, P} 1999 Linear stability of three-layer poiseuille
+  flow for oldroyd-b fluids. {\em Journal of Non-Newtonian Fluid Mechanics\/}
+  {\bf 83}~(1-2), 71--92.
+
+\bibitem[Searle \& Morozov(2016{\natexlab{{\em a\/}}})]{Searle2016b}
+{\sc Searle, Toby~W. \& Morozov, Alexander~N.} 2016{\natexlab{{\em a\/}}} A
+  linear instability in the purely elastic oscillatory channel flow. {\em In
+  preparation\/} .
+
+\bibitem[Searle \& Morozov(2016{\natexlab{{\em b\/}}})]{Searle2016a}
+{\sc Searle, Toby~W. \& Morozov, Alexander~N.} 2016{\natexlab{{\em b\/}}} A
+  purely elastic self sustaining process in plane couette flow. {\em In
+  preparation\/} .
+
+\bibitem[Su \& Khomami(1992{\natexlab{{\em a\/}}})]{Su1992b}
+{\sc Su, Yuan-Yuan \& Khomami, Bamin} 1992{\natexlab{{\em a\/}}} Interfacial
+  stability of multilayer viscoelastic fluids in slit and converging channel
+  die geometries. {\em Journal of Rheology\/} {\bf 36}~(2), 357.
+
+\bibitem[Su \& Khomami(1992{\natexlab{{\em b\/}}})]{Su1992a}
+{\sc Su, Yuan-Yuan \& Khomami, Bamin} 1992{\natexlab{{\em b\/}}} Purely elastic
+  interfacial instabilities in superposed flow of polymeric fluids. {\em
+  Rheologica Acta\/} {\bf 31}~(5), 413--420.
 
 \bibitem[Toms(1977)]{Toms1977}
-{\sc Toms, B.~A.} 1977 {On the early experiments on drag reduction by
-  polymers}. {\em Physics of Fluids\/} {\bf 20}~(10), S3.
+{\sc Toms, B.~A.} 1977 On the early experiments on drag reduction by polymers.
+  {\em Physics of Fluids\/} {\bf 20}~(10), S3.
 
 \bibitem[Waleffe(1997)]{Waleffe1997}
-{\sc Waleffe, Fabian} 1997 {On a self-sustaining process in shear flows}. {\em
+{\sc Waleffe, Fabian} 1997 On a self-sustaining process in shear flows. {\em
   Physics of Fluids\/} {\bf 9}~(4), 883.
 
 \bibitem[Waleffe(1998)]{Waleffe1998}
-{\sc Waleffe, Fabian} 1998 {Three-Dimensional Coherent States in Plane Shear
-  Flows}. {\em Physical Review Letters\/} {\bf 81}~(19), 4140--4143.
+{\sc Waleffe, Fabian} 1998 Three-dimensional coherent states in plane shear
+  flows. {\em Physical Review Letters\/} {\bf 81}~(19), 4140--4143.
+
+\bibitem[Waters(1983)]{Waters1983}
+{\sc Waters, N~D} 1983 The stability of two stratified “power-law” liquids
+  in couette flow. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf 12},
+  85--94.
+
+\bibitem[Waters \& Keeley(1987)]{Waters1987}
+{\sc Waters, N~D \& Keeley, A~M} 1987 Stability of two stratified non-newtonian
+  liquids in couette flow. {\em Journal of Non-Newtonian Fluid Mechanics\/}
+  {\bf 24}~(2), 161--181.
+
+\bibitem[Weinstein(1990)]{Weinstein1990}
+{\sc Weinstein, S.~J.} 1990 Wave propagation in the flow of shear-thinning
+  fluids down an incline. {\em AIChE\/} {\bf 36}~(12), 1873--1889.
+
+\bibitem[Wilson \& Khomami(1992)]{Wilson1992}
+{\sc Wilson, G~M \& Khomami, B} 1992 An experimental investigation of
+  interfacial instabilities in multilayer flow of viscoelastic fluids. i.
+  incompatible polymer systems. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 45}, 355.
+
+\bibitem[Wilson \& Khomami(1993{\natexlab{{\em a\/}}})]{Wilson1993a}
+{\sc Wilson, G~M \& Khomami, B} 1993{\natexlab{{\em a\/}}} An experimental
+  investigation of interfacial instabilities in multilayer flow of viscoelastic
+  fluids. ii. elastic and nonlinear effects in incompatible polymer systems.
+  {\em Journal of Rheology\/} {\bf 37}~(2), 341.
+
+\bibitem[Wilson \& Khomami(1993{\natexlab{{\em b\/}}})]{Wilson1993b}
+{\sc Wilson, G~M \& Khomami, B} 1993{\natexlab{{\em b\/}}} An experimental
+  investigation of interfacial instabilities in multilayer flow of viscoelastic
+  fluids. iii. compatible polymer systems. {\em Journal of Rheology\/} {\bf
+  37}~(2), 341.
+
+\bibitem[Wilson(2006)]{Wilson2006}
+{\sc Wilson, Helen~J} 2006 Instabilities and constitutive modelling. {\em
+  Philosophical transactions. Series A, Mathematical, physical, and engineering
+  sciences\/} {\bf 364}~(1849), 3267--83.
+
+\bibitem[Wilson \& Rallison(1997)]{Wilson1997}
+{\sc Wilson, H~J \& Rallison, J~M} 1997 Short wave instability of co-extruded
+  elastic liquids with matched viscosities. {\em Journal of Non-Newtonian Fluid
+  Mechanics\/} {\bf 72}~(2-3), 237--251.
+
+\bibitem[Wilson \& Rallison(1999)]{Wilson1999a}
+{\sc Wilson, H~J \& Rallison, J~M} 1999 Instability of channel flows of elastic
+  liquids having continuously stratified properties. {\em Journal of
+  Non-Newtonian Fluid Mechanics\/} {\bf 85}~(2-3), 273--298.
+
+\bibitem[Wilson {\em et~al.\/}(1999)Wilson, Renardy \& Renardy]{Wilson1999b}
+{\sc Wilson, H~J, Renardy, M \& Renardy, Y} 1999 Structure of the spectrum in
+  zero reynolds number shear flow of the ucm and oldroyd-b liquids. {\em
+  Journal of non-Newtonian Fluid Mechanics\/} {\bf 80}~(2-3), 251--268.
+
+\bibitem[Wong \& Jeng(1987)]{Wong1987}
+{\sc Wong, W.T. \& Jeng, C.C.} 1987 The stability of two concentric
+  non-newtonian fluids in circular pipe flow. {\em Journal of Non-Newtonian
+  Fluid Mechanics\/} {\bf 22}~(3), 359--380.
+
+\bibitem[Wongsomnuk {\em et~al.\/}(2000)Wongsomnuk, Banyam \&
+  Sirivat]{Wongsomnuk2000}
+{\sc Wongsomnuk, P., Banyam, J. \& Sirivat, A.} 2000 The sharkskin onset and
+  stability diagram. {\em Journal of Macromolecular Science, Part B: Physics\/}
+  {\bf 39}~(5-6), 723--730.
+
+\bibitem[Yiantsios \& Higgins(1988)]{Yiantsios1988}
+{\sc Yiantsios, S.~G. \& Higgins, B.~G.} 1988 Linear stability of plane
+  poiseuille flow of two superposed fluids. {\em Phys. Fluids\/} {\bf 31}~(11 ,
+  Nov. 1988), 3225--3238.
+
+\bibitem[Yih(1967)]{Yih1967}
+{\sc Yih, Chia-Shun} 1967 Instability due to viscosity stratification. {\em
+  Journal of Fluid Mechanics\/} {\bf 27}~(02), 337.
+
+\bibitem[Yoo \& Vi{\~{n}}als(2013)]{Yoo2013}
+{\sc Yoo, Chi-Deuk \& Vi{\~{n}}als, Jorge} 2013 The role of viscoelastic
+  contrast in orientation selection of block copolymer lamellar phases under
+  oscillatory shear. {\em Soft Matter\/} {\bf 9}~(32), 7817.
+
+\bibitem[Zilz {\em et~al.\/}(2012)Zilz, Poole, Alves, Bartolo, Levache \&
+  Lindner]{Zilz2012}
+{\sc Zilz, J, Poole, R~J, Alves, M~A, Bartolo, D, Levache, B \& Lindner, A}
+  2012 Geometric scaling of a purely elastic flow instability in serpentine
+  channels. {\em Journal of Fluid Mechanics\/} {\bf 712}, 203--218.
 
 \end{thebibliography}

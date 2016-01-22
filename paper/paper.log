@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.1)  6 JUN 2014 15:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/MacPorts 2015_8) (preloaded format=pdflatex 2015.11.23)  22 JAN 2016 15:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **paper
 (./paper.tex
-LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 2 languages loaded.
 (./jfm.cls
 Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
 \halflineskip=\skip41
@@ -26,31 +26,31 @@ Document Class: jfm 2006/11/13 v1.27 Journal of Fluid Mechanics document class
 \c@table=\count85
 \c@figure=\count86
 LaTeX Info: Redefining \cite on input line 1072.
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+) (/opt/local/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks15
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+(/opt/local/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
+(/opt/local/share/texmf-texlive/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/opt/local/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count87
@@ -64,11 +64,10 @@ Package: natbib 2000/07/24 7.0a (PWD)
 \bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 508.
 \c@NAT@ctr=\count88
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
+) (/opt/local/share/texmf-texlive/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
+(/opt/local/share/texmf-texlive/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen104
@@ -95,46 +94,46 @@ fdim \wd \@tempboxa >\tw@ \hsize \unhbox \@tempboxa \par \else {\centering \unh
 box \@tempboxa \par }\fi \endgroup \global \rem@fullptfalse \global \bot@figfal
 se .
 \c@ContinuedFloat=\count89
-) (/usr/local/texlive/2013/texmf-dist/tex/latex/caption/subcaption.sty
+) (/opt/local/share/texmf-texlive/tex/latex/caption/subcaption.sty
 Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
 \c@subfigure=\count90
 \c@subtable=\count91
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mathtools.sty
-Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
+(/opt/local/share/texmf-texlive/tex/latex/mathtools/mathtools.sty
+Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
-Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+(/opt/local/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count92
 \calc@Bcount=\count93
 \calc@Adimen=\dimen111
 \calc@Bdimen=\dimen112
 \calc@Askip=\skip52
 \calc@Bskip=\skip53
-LaTeX Info: Redefining \setlength on input line 76.
-LaTeX Info: Redefining \addtolength on input line 77.
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count94
 \calc@Cskip=\skip54
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mhsetup.sty
+(/opt/local/share/texmf-texlive/tex/latex/mathtools/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
+(/opt/local/share/texmf-texlive/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
  (./amsgen.sty
 File: amsgen.sty 1995/02/01 v1.2a
 \@emptytoks=\toks16
 \ex@=\dimen113
-)) (./amsbsy.sty
+))
+(./amsbsy.sty
 Package: amsbsy 1995/01/20 v1.2
 \pmbraise@=\dimen114
-)
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
+) (/opt/local/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count95
@@ -175,6 +174,8 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
+LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count107
@@ -186,6 +187,9 @@ LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \l_MT_below_intertext_sep=\dimen126
 \l_MT_above_shortintertext_sep=\dimen127
 \l_MT_below_shortintertext_sep=\dimen128
+)
+(/opt/local/share/texmf-texlive/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
 )
 
 
@@ -219,23 +223,26 @@ Found the 'amsbsy' package on the system, using it.
 \astrutbox=\box29
 \c@lemma=\count110
 \c@corollary=\count111
-(./paper.aux)
+(./paper.aux
+
+LaTeX Warning: Label `fig:vary_Re_delta_conv' multiply defined.
+
+)
 \openout1 = `paper.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 156.
-LaTeX Font Info:    ... okay on input line 156.
-
-(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 157.
+LaTeX Font Info:    ... okay on input line 157.
+ (/opt/local/share/texmf-texlive/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count112
 \scratchdimen=\dimen129
@@ -248,15 +255,15 @@ LaTeX Font Info:    ... okay on input line 156.
 \MPnumerator=\count116
 \makeMPintoPDFobject=\count117
 \everyMPtoPDFconversion=\toks22
-) (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+) (/opt/local/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
@@ -265,22 +272,22 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvdefinekeys.sty
 Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
 ))
-(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/opt/local/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
 Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
 
-(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+(/opt/local/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
@@ -292,90 +299,165 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/opt/local/share/texmf-texlive/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-LaTeX Font Info:    Try loading font information for U+msa on input line 159.
+LaTeX Font Info:    Try loading font information for U+msa on input line 160.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsa.fd
+(/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 159.
+LaTeX Font Info:    Try loading font information for U+msb on input line 160.
 
-(/usr/local/texlive/2013/texmf-dist/tex/latex/amsfonts/umsb.fd
+(/opt/local/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-Package natbib Warning: Citation `US!' on page 1 undefined on input line 204.
-
-
 Underfull \hbox (badness 10000) has occurred while \output is active
 
  []
 
-[1{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-[2] <./images/KH_diagram.pdf, id=25, 244.21237pt x 350.30875pt>
+[1{/opt/local/var/db/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+[4]
+Overfull \hbox (8.11185pt too wide) in paragraph at lines 414--423
+\OT1/cmr/m/n/10 Helmholtz in-sta-bil-ity. They do asymp-totic long wave lin-ear
+ sta-bil-ity such that the Reynold's
+ []
+
+
+Package natbib Warning: Citation `Ganpule1999' on page 5 undefined on input lin
+e 446.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [5]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ò in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+[6]
+Underfull \vbox (badness 7273) has occurred while \output is active []
+
+ [7]
+<./images/KH_diagram.pdf, id=41, 244.21237pt x 350.30875pt>
 File: ./images/KH_diagram.pdf Graphic file (type pdf)
 
 <use ./images/KH_diagram.pdf>
-Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 295.
+Package pdftex.def Info: ./images/KH_diagram.pdf used on input line 630.
 (pdftex.def)             Requested size: 115.20117pt x 165.24915pt.
- [3 <./images/KH_diagram.pdf>]
-<./images/inf_purely_elastic.pdf, id=52, 451.6875pt x 279.14288pt>
+ [8]
+<./images/inf_purely_elastic.pdf, id=49, 451.6875pt x 279.14288pt>
 File: ./images/inf_purely_elastic.pdf Graphic file (type pdf)
 
 <use ./images/inf_purely_elastic.pdf>
-Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 326
+Package pdftex.def Info: ./images/inf_purely_elastic.pdf used on input line 661
 .
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Re.pdf, id=53, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Re.pdf, id=50, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Re.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Re.pdf used on input line
- 333.
+ 667.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_vary_Re.pdf, id=54, 451.6875pt x 279.14288pt>
+<./images/inf_vary_Re.pdf, id=51, 451.6875pt x 279.14288pt>
 File: ./images/inf_vary_Re.pdf Graphic file (type pdf)
 
 <use ./images/inf_vary_Re.pdf>
-Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 352.
+Package pdftex.def Info: ./images/inf_vary_Re.pdf used on input line 688.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/inf_dispersions_low_Wi.pdf, id=55, 451.6875pt x 279.14288pt>
+<./images/inf_dispersions_low_Wi.pdf, id=52, 451.6875pt x 279.14288pt>
 File: ./images/inf_dispersions_low_Wi.pdf Graphic file (type pdf)
 
 <use ./images/inf_dispersions_low_Wi.pdf>
 Package pdftex.def Info: ./images/inf_dispersions_low_Wi.pdf used on input line
- 359.
+ 694.
 (pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
 
-<./images/psi_low_delta.pdf, id=56, 722.7pt x 317.98799pt>
+<./images/psi_low_delta.pdf, id=53, 722.7pt x 317.98799pt>
 File: ./images/psi_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/psi_low_delta.pdf>
-Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 387.
+Package pdftex.def Info: ./images/psi_low_delta.pdf used on input line 721.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
 
-<./images/txx_low_delta.pdf, id=57, 722.7pt x 317.98799pt>
+<./images/txx_low_delta.pdf, id=54, 722.7pt x 317.98799pt>
 File: ./images/txx_low_delta.pdf Graphic file (type pdf)
 
 <use ./images/txx_low_delta.pdf>
-Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 394.
+Package pdftex.def Info: ./images/txx_low_delta.pdf used on input line 727.
 (pdftex.def)             Requested size: 384.0pt x 168.95981pt.
 
-<./images/KH_vary_delta.pdf, id=58, 451.6875pt x 279.14288pt>
+<./images/KH_vary_delta.pdf, id=55, 451.6875pt x 279.14288pt>
 File: ./images/KH_vary_delta.pdf Graphic file (type pdf)
 
 <use ./images/KH_vary_delta.pdf>
-Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 416.
+Package pdftex.def Info: ./images/KH_vary_delta.pdf used on input line 747.
 (pdftex.def)             Requested size: 384.0pt x 237.32367pt.
- [4 <./images/inf_purely_elastic.pdf> <./images/inf_dispersions_low_Re.pdf
+
+<./images/psi_high_delta.pdf, id=56, 722.7pt x 317.98799pt>
+File: ./images/psi_high_delta.pdf Graphic file (type pdf)
+
+<use ./images/psi_high_delta.pdf>
+Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 759.
+(pdftex.def)             Requested size: 384.0pt x 168.95981pt.
+ [9 <./images/KH_diagram.pdf>]
+<./images/vary_Re_delta_conv.pdf, id=80, 451.6875pt x 279.14288pt>
+File: ./images/vary_Re_delta_conv.pdf Graphic file (type pdf)
+
+<use ./images/vary_Re_delta_conv.pdf>
+Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 789
+.
+(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
+
+<./images/KH_low_Re_vary_Wi.pdf, id=81, 451.6875pt x 279.14288pt>
+File: ./images/KH_low_Re_vary_Wi.pdf Graphic file (type pdf)
+
+<use ./images/KH_low_Re_vary_Wi.pdf>
+Package pdftex.def Info: ./images/KH_low_Re_vary_Wi.pdf used on input line 803.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_low_Wi_vary_Re.pdf, id=82, 451.6875pt x 279.14288pt>
+File: ./images/KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
+
+<use ./images/KH_low_Wi_vary_Re.pdf>
+Package pdftex.def Info: ./images/KH_low_Wi_vary_Re.pdf used on input line 809.
+
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/KH_onset_beta_Wi.pdf, id=83, 451.6875pt x 279.14288pt>
+File: ./images/KH_onset_beta_Wi.pdf Graphic file (type pdf)
+
+<use ./images/KH_onset_beta_Wi.pdf>
+Package pdftex.def Info: ./images/KH_onset_beta_Wi.pdf used on input line 816.
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/fin_dispersions_Wi50.pdf, id=84, 451.6875pt x 279.14288pt>
+File: ./images/fin_dispersions_Wi50.pdf Graphic file (type pdf)
+
+<use ./images/fin_dispersions_Wi50.pdf>
+Package pdftex.def Info: ./images/fin_dispersions_Wi50.pdf used on input line 8
+22.
+(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
+
+<./images/growth_rate_sldim.pdf, id=85, 361.35pt x 216.81pt>
+File: ./images/growth_rate_sldim.pdf Graphic file (type pdf)
+
+<use ./images/growth_rate_sldim.pdf>
+Package pdftex.def Info: ./images/growth_rate_sldim.pdf used on input line 845.
+
+(pdftex.def)             Requested size: 268.79883pt x 161.28049pt.
+ [10 <./images/inf_purely_elastic.pdf> <./images/inf_dispersions_low_Re.pdf
 
 pdfTeX warning: pdflatex (file ./images/inf_dispersions_low_Re.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
@@ -387,66 +469,16 @@ le pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./images/inf_dispersions_low_Wi.pdf): PDF inclus
 ion: multiple pdfs with page group included in a single page
->] <./images/psi_high_delta.pdf, id=109, 722.7pt x 317.98799pt>
-File: ./images/psi_high_delta.pdf Graphic file (type pdf)
-
-<use ./images/psi_high_delta.pdf>
-Package pdftex.def Info: ./images/psi_high_delta.pdf used on input line 428.
-(pdftex.def)             Requested size: 384.0pt x 168.95981pt.
- [5 <./images/psi_low_delta.pdf> <./images/txx_low_delta.pdf
+>] [11 <./images/psi_low_delta.pdf> <./images/txx_low_delta.pdf
 
 pdfTeX warning: pdflatex (file ./images/txx_low_delta.pdf): PDF inclusion: mult
 iple pdfs with page group included in a single page
->] <./images/vary_Re_delta_conv.pdf, id=503, 451.6875pt x 279.14288pt>
-File: ./images/vary_Re_delta_conv.pdf Graphic file (type pdf)
-
-<use ./images/vary_Re_delta_conv.pdf>
-Package pdftex.def Info: ./images/vary_Re_delta_conv.pdf used on input line 457
-.
-(pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
-
-<./images/KH_purely_elastic.pdf, id=504, 451.6875pt x 279.14288pt>
-File: ./images/KH_purely_elastic.pdf Graphic file (type pdf)
-
-<use ./images/KH_purely_elastic.pdf>
-Package pdftex.def Info: ./images/KH_purely_elastic.pdf used on input line 474.
-
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/KH_low_Wi_vary_Re.pdf, id=505, 451.6875pt x 279.14288pt>
-File: ./images/KH_low_Wi_vary_Re.pdf Graphic file (type pdf)
-
-<use ./images/KH_low_Wi_vary_Re.pdf>
-Package pdftex.def Info: ./images/KH_low_Wi_vary_Re.pdf used on input line 481.
-
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/KH_onset_beta_Wi.pdf, id=506, 451.6875pt x 279.14288pt>
-File: ./images/KH_onset_beta_Wi.pdf Graphic file (type pdf)
-
-<use ./images/KH_onset_beta_Wi.pdf>
-Package pdftex.def Info: ./images/KH_onset_beta_Wi.pdf used on input line 488.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-<./images/fin_dispersions_Wi50.pdf, id=507, 451.6875pt x 279.14288pt>
-File: ./images/fin_dispersions_Wi50.pdf Graphic file (type pdf)
-
-<use ./images/fin_dispersions_Wi50.pdf>
-Package pdftex.def Info: ./images/fin_dispersions_Wi50.pdf used on input line 4
-95.
-(pdftex.def)             Requested size: 184.31836pt x 113.90837pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [6 <./images/KH_vary_delta.pdf> <./images/psi_high_delta.pdf
+>] [12 <./images/KH_vary_delta.pdf> <./images/psi_high_delta.pdf
 
 pdfTeX warning: pdflatex (file ./images/psi_high_delta.pdf): PDF inclusion: mul
 tiple pdfs with page group included in a single page
->] [7 <./images/vary_Re_delta_conv.pdf> <./images/KH_purely_elastic.pdf
-
-pdfTeX warning: pdflatex (file ./images/KH_purely_elastic.pdf): PDF inclusion: 
-multiple pdfs with page group included in a single page
-> <./images/KH_low_Wi_vary_Re.pdf
+>] [13 <./images/vary_Re_delta_conv.pdf>] [14 <./images/KH_low_Re_vary_Wi.pdf> 
+<./images/KH_low_Wi_vary_Re.pdf
 
 pdfTeX warning: pdflatex (file ./images/KH_low_Wi_vary_Re.pdf): PDF inclusion: 
 multiple pdfs with page group included in a single page
@@ -458,78 +490,115 @@ ultiple pdfs with page group included in a single page
 
 pdfTeX warning: pdflatex (file ./images/fin_dispersions_Wi50.pdf): PDF inclusio
 n: multiple pdfs with page group included in a single page
->] <./images/FENE_purely_elastic.pdf, id=677, 451.6875pt x 279.14288pt>
+> <./images/growth_rate_sldim.pdf
+
+pdfTeX warning: pdflatex (file ./images/growth_rate_sldim.pdf): PDF inclusion: 
+multiple pdfs with page group included in a single page
+>] <./images/FENE_purely_elastic.pdf, id=731, 451.6875pt x 279.14288pt>
 File: ./images/FENE_purely_elastic.pdf Graphic file (type pdf)
 
 <use ./images/FENE_purely_elastic.pdf>
-Package pdftex.def Info: ./images/FENE_purely_elastic.pdf used on input line 52
-4.
+Package pdftex.def Info: ./images/FENE_purely_elastic.pdf used on input line 86
+7.
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
 
-<./images/high_Re_vary_delta.pdf, id=678, 451.6875pt x 279.14288pt>
+<./images/high_Re_vary_delta.pdf, id=732, 451.6875pt x 279.14288pt>
 File: ./images/high_Re_vary_delta.pdf Graphic file (type pdf)
 
 <use ./images/high_Re_vary_delta.pdf>
-Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 536
+Package pdftex.def Info: ./images/high_Re_vary_delta.pdf used on input line 877
 .
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
 
-<./images/KH_high_Re_vary_Wi.pdf, id=679, 451.6875pt x 279.14288pt>
+<./images/KH_high_Re_vary_Wi.pdf, id=733, 451.6875pt x 279.14288pt>
 File: ./images/KH_high_Re_vary_Wi.pdf Graphic file (type pdf)
 
 <use ./images/KH_high_Re_vary_Wi.pdf>
-Package pdftex.def Info: ./images/KH_high_Re_vary_Wi.pdf used on input line 558
+Package pdftex.def Info: ./images/KH_high_Re_vary_Wi.pdf used on input line 896
 .
 (pdftex.def)             Requested size: 268.79883pt x 166.12827pt.
- [8 <./images/FENE_purely_elastic.pdf> <./images/high_Re_vary_delta.pdf
+ [15
+
+] [16 <./images/FENE_purely_elastic.pdf> <./images/high_Re_vary_delta.pdf
 
 pdfTeX warning: pdflatex (file ./images/high_Re_vary_delta.pdf): PDF inclusion:
  multiple pdfs with page group included in a single page
->] (./paper.bbl)
+>] [17 <./images/KH_high_Re_vary_Wi.pdf>] (./paper.bbl
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ì in font cmr9!
+
+Underfull \vbox (badness 3690) has occurred while \output is active []
+
+ [18
+
+]
+[19]
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ú in font cmr9!
+Missing character: There is no ‚ in font cmr9!
+Missing character: There is no Ä in font cmr9!
+Missing character: There is no ù in font cmr9!
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20])
 
 Package natbib Warning: There were undefined citations.
 
-[9 <./images/KH_high_Re_vary_Wi.pdf>] (./paper.aux) ) 
+[21] (./paper.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 4683 strings out of 493315
- 68818 string characters out of 6137905
- 133452 words of memory out of 5000000
- 8056 multiletter control sequences out of 15000+600000
+ 4775 strings out of 495004
+ 70062 string characters out of 6181262
+ 136092 words of memory out of 5000000
+ 7926 multiletter control sequences out of 15000+600000
  15308 words of font info for 58 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 38i,11n,38p,945b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2013/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2013/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2013/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmbx5.pfb></usr/local/texlive/2013/texmf
--dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb></usr/local/texlive/2013/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2013/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/texlive/2013/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2013/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2013/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2013/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2013/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmmi8.pfb></usr/local/texlive/2013/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2013/texmf-dist/fonts/typ
-e1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmr6.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmr8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsf
-onts/cm/cmr9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmsy7.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmti10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti8.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
-i9.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/symbols/
-msam10.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/ncntrsbk/uncr8a.
-pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
-Output written on paper.pdf (9 pages, 1624690 bytes).
+ 14 hyphenation exceptions out of 8191
+ 38i,11n,38p,1104b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
+</opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx10.pfb></o
+pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx12.pfb></opt/lo
+cal/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx5.pfb></opt/local/sh
+are/texmf-texlive/fonts/type1/public/amsfonts/cm/cmbx7.pfb></opt/local/share/te
+xmf-texlive/fonts/type1/public/amsfonts/cm/cmbx9.pfb></opt/local/share/texmf-te
+xlive/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></opt/local/share/texmf-texliv
+e/fonts/type1/public/amsfonts/cm/cmex10.pfb></opt/local/share/texmf-texlive/fon
+ts/type1/public/amsfonts/cm/cmmi10.pfb></opt/local/share/texmf-texlive/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb></opt/local/share/texmf-texlive/fonts/type1/p
+ublic/amsfonts/cm/cmmi5.pfb></opt/local/share/texmf-texlive/fonts/type1/public/
+amsfonts/cm/cmmi7.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfon
+ts/cm/cmmi8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/
+cmr10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr12.
+pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr5.pfb></o
+pt/local/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr6.pfb></opt/loca
+l/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr7.pfb></opt/local/share
+/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr8.pfb></opt/local/share/texmf-
+texlive/fonts/type1/public/amsfonts/cm/cmr9.pfb></opt/local/share/texmf-texlive
+/fonts/type1/public/amsfonts/cm/cmsy10.pfb></opt/local/share/texmf-texlive/font
+s/type1/public/amsfonts/cm/cmsy7.pfb></opt/local/share/texmf-texlive/fonts/type
+1/public/amsfonts/cm/cmsy9.pfb></opt/local/share/texmf-texlive/fonts/type1/publ
+ic/amsfonts/cm/cmti10.pfb></opt/local/share/texmf-texlive/fonts/type1/public/am
+sfonts/cm/cmti8.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts
+/cm/cmti9.pfb></opt/local/share/texmf-texlive/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb></opt/local/share/texmf-texlive/fonts/type1/urw/ncntrsbk/uncr8a.p
+fb></opt/local/share/texmf-texlive/fonts/type1/urw/ncntrsbk/uncri8a.pfb>
+Output written on paper.pdf (21 pages, 1724467 bytes).
 PDF statistics:
- 805 PDF objects out of 1000 (max. 8388607)
- 287 compressed objects within 3 object streams
+ 877 PDF objects out of 1000 (max. 8388607)
+ 323 compressed objects within 4 object streams
  0 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 91 words of extra memory for PDF output out of 10000 (max. 10000000)
 
