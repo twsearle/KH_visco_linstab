@@ -1,4 +1,4 @@
-\begin{thebibliography}{73}
+\begin{thebibliography}{74}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Anturkar {\em et~al.\/}(1990)Anturkar, Papanastasiou \&
@@ -87,6 +87,11 @@
   interfacial instabilities in the three layer superposed channel flow of
   viscoelastic fluids. {\em Journal of Non-Newtonian Fluid Mechanics\/} {\bf
   79}~(2-3), 315--360.
+
+\bibitem[Ganpule \& Khomami(1999)]{Ganpule1999}
+{\sc Ganpule, H~K \& Khomami, B} 1999 An investigation of interfacial
+  instabilities in the superposed channel flow of viscoelastic fluids. {\em
+  Journal of Non-Newtonian Fluid Mechanics\/} {\bf 81}~(1-2), 27--69.
 
 \bibitem[Graham(1999)]{Graham1999}
 {\sc Graham, Michael~D.} 1999 The sharkskin instability of polymer melt flows.

@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: jfm.bst
 Database file #1: KH_paper.bib
-You've used 73 entries,
+You've used 74 entries,
             2793 wiz_defined-function locations,
-            1092 strings with 15572 characters,
-and the built_in function-call counts, 34282 in all, are:
-= -- 3443
-> -- 1386
-< -- 57
-+ -- 582
-- -- 465
-* -- 3185
-:= -- 6147
-add.period$ -- 146
-call.type$ -- 73
-change.case$ -- 520
-chr.to.int$ -- 67
-cite$ -- 73
-duplicate$ -- 1543
-empty$ -- 2576
-format.name$ -- 604
-if$ -- 6749
+            1096 strings with 15699 characters,
+and the built_in function-call counts, 34753 in all, are:
+= -- 3492
+> -- 1404
+< -- 58
++ -- 591
+- -- 471
+* -- 3228
+:= -- 6230
+add.period$ -- 148
+call.type$ -- 74
+change.case$ -- 527
+chr.to.int$ -- 68
+cite$ -- 74
+duplicate$ -- 1564
+empty$ -- 2611
+format.name$ -- 613
+if$ -- 6842
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 73
-newline$ -- 223
-num.names$ -- 292
-pop$ -- 371
+missing$ -- 74
+newline$ -- 226
+num.names$ -- 296
+pop$ -- 376
 preamble$ -- 1
-purify$ -- 447
+purify$ -- 453
 quote$ -- 0
-skip$ -- 886
+skip$ -- 898
 stack$ -- 0
-substring$ -- 2239
-swap$ -- 329
+substring$ -- 2271
+swap$ -- 333
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 657
+type$ -- 666
 warning$ -- 0
-while$ -- 337
+while$ -- 342
 width$ -- 0
-write$ -- 803
+write$ -- 814
