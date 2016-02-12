@@ -1,5 +1,5 @@
 %	paper.tex	Toby Searle
-%	Last modified: Fri 12 Feb 11:52:33 2016
+%	Last modified: Fri 12 Feb 17:42:28 2016
 %	using jfm template
 
 \NeedsTeXFormat{LaTeX2e}
@@ -145,7 +145,8 @@
 
 % NOTE: A full address must be provided: department, university/institution, town/city, zipcode/postcode, country.
 \affiliation{$^1$SUPA, School of Physics and Astronomy, University of Edinburgh, Mayfield Road,
-Edinburgh, EH9 3JZ, UK\\[\affilskip]
+Edinburgh, EH9 3JZ, UK\\
+[\affilskip]
 }
 
 \pubyear{2013}
@@ -172,15 +173,29 @@ for the full list)
 
 \section{Introduction}
 
-It was long thought that the elasticity of a viscoelastic fluid only served to
-dampen instability. This view stems from early results showing that drag in a
-turbulent Newtonian flow can be reduced by the addition of small amounts of
-viscoelastic fluid \citep{Toms1977}. Although drag reduction has been studied
-for a long time, studies on turbulence without inertia \citep{Larson1990,
-Groisman2000} give reason to believe that there are purely elastic bulk
-instabilities present in elastic fluids relevant to industry.  This purely
-elastic turbulence is present at very low Reynolds number, where it is driven
-by the elasticity of a polymeric flow rather than its inertia. 
+The Kelvin-Helmholtz instability is integral to the transition to turbulence in
+Newtonian fluids. By finding a purely elastic version of this instability, we
+seek to probe a generic mechanism for the transition to purely elastic
+turbulence, one that is presumably present in other contexts, such as the
+oscillatory channel flow problem of \cite{Searle2016b}. To explore this
+mechanism in the purely elastic regime we have constructed a simple model
+system of a purely elastic flow which generates large jumps in the first normal
+stress difference and so ought to lead to instability.
+
+This flow has not been considered in the past because it does not occur in many
+of the natural contexts where we see the Newtonian Kelvin-Helmholtz. For
+example, the archetypical Kelvin-Helmholtz instability takes place for flow
+over a backwards facing step. In this geometry, the fluids inertia leads to an
+overshoot with vortex behind the step and a hyperbolic tangent streamwise flow
+velocity. In Purely elastic fluids the flow is Stokesian, and so the fluid
+velocity is much smoother with no overshoot.
+
+The backwards facing step is not the flow we are thinking of when we examine
+this instability, however. We are thinking of flows where elastic effects lead
+to sharp changes in velocity and stress. Such jumps in first normal stress
+difference are thought to lead to an instability see \citet{Morozov2007}, and
+we hope to expose this as a generic mechanism by which a flow might become
+unstable.
 
 \subsection{Exact coherent structures and Turbulence}
 
@@ -412,13 +427,13 @@ large $\Rey$ flow of a Newtonian fluid over an Oldroyd-B fluid. There is an
 asymptotic expansion for the linear stability in the short wave limit.
 
 \citet{Azaiez1994} do the linear stability of a free shear flow of the
-Oldroyd-B, co-rotational Jefferys and Gisekus fluids. Find suppression of the
-Newtonian Kelvin-Helmholtz instability. They do asymptotic long wave linear
-stability such that the Reynold's number is small but finite and the
-Weissenberg number is large with a constant elasticity. They also do a
-numerical linear stability via an orthogonal shooting algorithm. In the
-appendix of this paper Hinch \citep{Azaiez1994} takes the long wavelength limit
-of their problem in a far more elegant way and exposes a stabilisation
+Oldroyd-B, co-rotational Jefferys and Gisekus fluids. For large elasticity they
+find suppression of the Newtonian Kelvin-Helmholtz instability. They do
+asymptotic long wave linear stability such that the Reynold's number is small
+but finite and the Weissenberg number is large with a constant elasticity. They
+also do a numerical linear stability via an orthogonal shooting algorithm. In
+the appendix of this paper Hinch \citep{Azaiez1994} takes the long wavelength
+limit of their problem in a far more elegant way and exposes a stabilisation
 mechanism based on elastic hoop stresses in the curved streamlines.
 
 Renardy returned to the two-layer flow of the elastically stratified UCM model
@@ -612,7 +627,7 @@ equations are then:
     + \nabla{\mathbf{v}} 
 \end{align} 
 With $\mathbf{v}$ as the total (base flow and disturbance) velocity and $\tau$
-as the total stress in the polymeric fluid. The FENE-P viscoelastic fluid has
+as the total stress in the polymeric fluid. The FENE-CR viscoelastic fluid has
 the advantage of being similarly easy to analyse using our spectral method, but
 also including a finite extensibility for the polymers. This leads to a stress
 which depends on a conformation tensor ($\mathbf{C}$) for the polymer dumbbells
@@ -623,10 +638,10 @@ via a non-linear spring force:
 	\frac{L^{2}}{tr(\mathbf{C^{2}})}} \label{eq:KH_FENE_stress}
 \end {equation}
 
-\begin{figure} 
+\begin{figure}[h]
     \centering 
     \includegraphics[width=0.3\textwidth]{{KH_diagram}}
-    \caption{diagram of the system} 
+    \caption{Diagram of a shear layer} 
     \label{fig:KH_diagram} 
 \end{figure}
 
@@ -655,10 +670,11 @@ height of the instability also increases with increasing Weissenberg number
 	\includegraphics[width=\textwidth]{{inf_purely_elastic}}
 	\caption{}
 	\label{fig:KH_inf_disp_height_vary_Wi} 
-    \end{subfigure} ~
+    \end{subfigure} 
+    ~
     \begin{subfigure}[b]{0.48\textwidth} 
 	\centering
-	\includegraphics[width=\textwidth]{{inf_dispersions_low_Re}} 
+	\includegraphics[width=\textwidth]{{inf_dispersions_Re0.01}.pdf} 
 	\caption{}
 	\label{fig:KH_inf_dispersions_vary_Wi} 
     \end{subfigure} 
@@ -682,7 +698,8 @@ becomes dominant.
 	\includegraphics[width=\textwidth]{{inf_vary_Re}} 
 	\caption{}
 	\label{fig:KH_inf_disp_height_vary_Re} 
-    \end{subfigure} ~
+    \end{subfigure} 
+    ~
     \begin{subfigure}[b]{0.48\textwidth} 
 	\centering
 	\includegraphics[width=\textwidth]{{inf_dispersions_low_Wi}}
@@ -700,13 +717,45 @@ As the Reynold's number is reduced, new eigenvalues become dominant. Although
 the dominant eigenvalue changes the flow is still unstable, even down to $\Rey
 = 0.01$ (see figures \ref{fig:KH_inf_disp_height_vary_Re} and \ref{fig:KH_dispersions_vary_Re}).
 
+\FloatBarrier
+
 \subsection{Shear instability with walls}
 
 Now we use equations \ref{eq:KH_laminar_profile} and examine the unstretched
-pseudospectral domain.  The instability remains present under variation of
-$\Delta$ at low $\Delta$. At $\Delta =0.1$ the instability is still present for
-$\Rey < 0.01$ far lower than the usual threshold of $\Rey \sim 1000$ for a
-Newtonian Kelvin-Helmholtz instability (figure \ref{fig:KH_walls_vary_Re}).
+pseudospectral domain. To validate the code, we examine the high Reynolds
+number regime. We see the height of the instability decrease with increasing
+Weissenburg number, and this trend is stronger for smaller $\beta$ (figure
+\ref{fig:KH_drag_reduction}). This is the same behaviour reported in
+\cite{Azaiez1994}.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.7\textwidth]{{high_Re_vary_delta}}
+    \caption{
+	Dispersion relations for various values of $\Delta$ and $\Rey = 1000$,
+	$\Wi = 0.01$. When results are rescaled, the instability is
+	found to be insensitive for $\Delta =0.1$.
+    }
+    \label{fig:KH_high_Re_walls_dependence}
+\end{figure}
+
+\begin{figure}[h]
+%   \showthe\columnwidth %use this to determine size of figures.
+    \centering \includegraphics[width=0.7\textwidth]{{KH_high_Re_vary_Wi}}
+    \caption{ 
+	Peak growth rate against Weissenberg number at $\Rey = 1000$,
+	$\Delta = 0.1$ The height of the dispersion relation is reduced for the
+	Kelvin-Helmholtz instability as the Weissenberg number is increased.
+	The grey dashed line is the height of the dispersion relation for the
+	Newtonian fluid. The decrease in $\lambda_{r}$ corresponds to increased
+	stability of the base flow, this matches the observations made in \cite{Azaiez1994}} 
+    \label{fig:KH_drag_reduction} 
+\end{figure}
+
+The instability remains present under variation of $\Delta$ at low $\Delta$. At
+$\Delta =0.1$ the instability is still present for $\Rey < 0.01$ far lower than
+the usual threshold of $\Rey \sim 1000$ for a Newtonian Kelvin-Helmholtz
+instability (figure \ref{fig:KH_walls_vary_Re}).
 
 At high Reynolds number the instability is insensitive to the distance to the
 walls when $\Delta =0.1$ (figure \ref{fig:KH_high_Re_walls_dependence}). At low
@@ -714,7 +763,7 @@ Reynolds number, the width of the channel is more important but the instability
 is still present for very low $\Delta$ (figure
 \ref{fig:KH_low_Re_walls_dependence}). 
 
-\begin{figure} 
+\begin{figure}[h]
     \centering 
     \includegraphics[width=\textwidth]{{KH_vary_delta}}
     \caption{
@@ -726,15 +775,6 @@ is still present for very low $\Delta$ (figure
     \label{fig:KH_low_Re_walls_dependence} 
 \end{figure}
 
-\begin{figure} \centering
-    \includegraphics[width=0.7\textwidth]{{high_Re_vary_delta}}
-    \caption{
-	Dispersion relations for various values of $\Delta$ and $\Rey = 1000$,
-	$\Wi = 0.01$. When results are rescaled, the instability is
-	found to be insensitive for $\Delta =0.1$.
-    }
-    \label{fig:KH_high_Re_walls_dependence}
-\end{figure}
 
 If we examine the eigenvectors of the instability, we see that there are very
 large polymer stresses in the $\pm \Delta$ region (figure
@@ -750,20 +790,23 @@ likely linked to the stronger dependence on $\Delta$ relative to the Newtonian
 instability.
 
 \begin{figure}[h]
-    \includegraphics[width=\textwidth]{{Visco_Newt_slice}.pdf}
+    \includegraphics[width=\textwidth]{{visco_Newt_slice}.pdf}
     \caption{
 	Streamfunction of the Newtonian Kelvin Helmholtz instability at $\Rey =
-	1000$ compared with the purely elastic instability for $\beta = 0.1$,
-	$\Rey = 0.0$, $\Wi = 5.0$, both at $\Delta =0.05$. The Newtonian Kelvin
-	Helmholtz instability exponentially decays towards the channel walls
-	whilst large vortices are present outside the walls in the purely
-	elastic case.
+	100$, $k=0.722$ compared with the purely elastic Oldroyd-B and FENE-CR
+	instability for $\beta = 0.1$, $\Rey = 0.0$, $k=0.02$, $\Wi = 50.0$,
+	both at $\Delta =0.05$. Newtonian eigenvector is in red, with the
+	Oldroyd-B in green and the FENE model in dashed purple at $L=100$. The
+	Newtonian Kelvin Helmholtz instability exponentially decays towards the
+	channel walls whilst large vortices are present outside the shear layer
+	in the purely elastic case.
     }
     \label{fig:KH_Visco_Newt_evectors}
 \end{figure}
 
 
-\begin{figure} \begin{subfigure}[b]{\textwidth} 
+\begin{figure}
+    \begin{subfigure}[b]{\textwidth} 
 	\centering
 	\includegraphics[width=\textwidth]{{psi_low_delta}}
 	\caption{}
@@ -792,14 +835,14 @@ vortices in our purely elastic case, seem to correspond to the larger
 elasticity ($G~\Wi/\Rey$) eigenvectors in \citet{Azaiez1994}. Their $G=5$ case
 would only correspond to $\Wi=0.5$ for $\Re=0.1$ in our purely elastic
 instability, so it is a completely different, inertial instability that they
-observe (\citet{Azaiez1994} figure 8). Nonetheless at least one of their observations does apply. The fact
-that the velocity disturbance is essentially zero in the center of the channel,
-implies that the shear layer will be less likely to roll up. In the Newtonian
-instability, net velocities within the shear layer will distort its shape,
-however the purely elastic instability appears to have less of an effect on the
-shear layer.
+observe (\citet{Azaiez1994} figure 8). Nonetheless at least one of their
+observations does apply. The fact that the velocity disturbance is essentially
+zero in the center of the channel, implies that the shear layer will be less
+likely to roll up. In the Newtonian instability, net velocities within the
+shear layer will distort its shape, however the purely elastic instability
+appears to have less of an effect on the shear layer.
 
-\begin{figure} 
+\begin{figure}[h]
     \centering 
     \includegraphics[width=\textwidth]{{psi_high_delta}}
     \caption{ 
@@ -831,7 +874,8 @@ the important results for the purely elastic instability from the point of view
 of the plane Couette problem are probably those for which the walls are
 relevant. 
 
-\begin{figure} \centering
+\begin{figure}[h] 
+    \centering
     \includegraphics[width=0.7\textwidth]{{vary_Re_delta_conv}}
     \caption{ The
 	data in red corresponds to the free shear system and the green gives
@@ -883,7 +927,7 @@ relevant.
     }
 \end{figure}
 
-\begin{figure} 
+\begin{figure}[h] 
     \centering
     \includegraphics[width=0.7\textwidth]{{growth_rate_sldim}} 
     \caption{ 
@@ -900,35 +944,25 @@ relevant.
 \subsection{Consistency of results with the FENE model}
 
 The finite extensibility version of the model gives good agreement with the
-Oldroyd-B version. Shorter lengths bring about a stronger instability and do not
-delay it to higher Weissenberg number. Otherwise similar dispersion relations
-are observed with a similar dependence on the distance to the walls (figure
-\ref{fig:KH_FENE_low_Re}).
+Oldroyd-B version. Shorter lengths bring about a stronger instability and do
+not delay it to higher Weissenberg number. Otherwise similar dispersion
+relations are observed with a similar dependence on $\Delta$. (figure
+\ref{fig:KH_FENE_low_Re}). The dependence of the instability on wavenumber is
+not shown, but is exactly the same as that seen for the Oldroyd-B model.
 
-\begin{figure} 
+A shorter length scale for the polymers results in an amplification of the
+instability. This suggests that perhaps the instability mechanism involves the
+shear stress on the polymers.
+
+\begin{figure}[h] 
     \centering
     \includegraphics[width=0.7\textwidth]{{FENE_purely_elastic}} 
     \caption{ 
-	The FENE-P model fluid at $\Rey = 0$  when $\Delta = 0.1$, ranging from
+	The FENE-CR model fluid at $\Rey = 0$  when $\Delta = 0.1$, ranging from
 	$L=100$ (top curve), $L=500$ and the Oldroyd-B model in the bottom
 	curve. Results are consistent with figure \ref{fig:KH_purely_elastic}.  
     }
-	\label{fig:KH_FENE_low_Re} \end{figure}
-
-We see the height of the instability decrease with increasing Weissenburg number, and this trend is stronger for smaller $\beta$ (figure \ref{fig:KH_drag_reduction}).
-
-
-\begin{figure}
-%   \showthe\columnwidth %use this to determine size of figures.
-    \centering \includegraphics[width=0.7\textwidth]{{KH_high_Re_vary_Wi}}
-    \caption{ 
-	Peak growth rate against Weissenberg number at $\Rey = 1000$,
-	$\Delta = 0.1$ The height of the dispersion relation is reduced for the
-	Kelvin-Helmholtz instability as the Weissenberg number is increased.
-	The grey dashed line is the height of the dispersion relation for the
-	Newtonian fluid. The decrease in $\lambda_{r}$ corresponds to increased
-	stability of the base flow, this matches the observations made in \cite{Azaiez1994}} 
-    \label{fig:KH_drag_reduction} 
+    \label{fig:KH_FENE_low_Re} 
 \end{figure}
 
 
@@ -949,6 +983,7 @@ at low Reynold's number.
 
 \bibliographystyle{jfm}
 %\bibliographystyle{plain}
+
 
 
 \bibliography{KH_paper}
