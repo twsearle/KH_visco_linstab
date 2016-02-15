@@ -1,4 +1,4 @@
-\begin{thebibliography}{74}
+\begin{thebibliography}{71}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 
 \bibitem[Anturkar {\em et~al.\/}(1990)Anturkar, Papanastasiou \&
@@ -97,10 +97,6 @@
 {\sc Graham, Michael~D.} 1999 The sharkskin instability of polymer melt flows.
   {\em Chaos (Woodbury, N.Y.)\/} {\bf 9}~(1), 154--163.
 
-\bibitem[Groisman \& Steinberg(2000)]{Groisman2000}
-{\sc Groisman, A. \& Steinberg, V.} 2000 Elastic turbulence in a polymer
-  solution flow. {\em Nature\/} {\bf 405}~(6782), 53--5.
-
 \bibitem[Han(1985)]{Han1985}
 {\sc Han, C} 1985 A study of coextrusion in a circular die. {\em Journal of
   Applied Polymer Science\/} {\bf 19}, 1875--1883.
@@ -159,11 +155,6 @@
 \bibitem[Larson(1992)]{Larson1992}
 {\sc Larson, R~G} 1992 Instabilities in viscoelastic flows. {\em Rheologica
   Acta\/} {\bf 31}~(3), 213--263.
-
-\bibitem[Larson {\em et~al.\/}(1990)Larson, Shaqfeh \& Muller]{Larson1990}
-{\sc Larson, R.~G., Shaqfeh, Eric S.~G. \& Muller, S.~J.} 1990 A purely elastic
-  instability in taylor couette flow. {\em Journal of Fluid Mechanics\/} {\bf
-  218}, 573.
 
 \bibitem[Laure {\em et~al.\/}(1997)Laure, LeMeur, Demay, Saut \&
   Scotto]{Laure1997}
@@ -285,10 +276,6 @@
 {\sc Su, Yuan-Yuan \& Khomami, Bamin} 1992{\natexlab{{\em b\/}}} Purely elastic
   interfacial instabilities in superposed flow of polymeric fluids. {\em
   Rheologica Acta\/} {\bf 31}~(5), 413--420.
-
-\bibitem[Toms(1977)]{Toms1977}
-{\sc Toms, B.~A.} 1977 On the early experiments on drag reduction by polymers.
-  {\em Physics of Fluids\/} {\bf 20}~(10), S3.
 
 \bibitem[Waleffe(1997)]{Waleffe1997}
 {\sc Waleffe, Fabian} 1997 On a self-sustaining process in shear flows. {\em

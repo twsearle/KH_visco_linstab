@@ -1,46 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2015/MacPorts 2015_8)
+This is BibTeX, Version 0.99d (TeX Live 2015)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: paper.aux
 The style file: jfm.bst
 Database file #1: KH_paper.bib
-You've used 74 entries,
+Warning--I didn't find a database entry for "Morozov2007"
+You've used 71 entries,
             2793 wiz_defined-function locations,
-            1096 strings with 15699 characters,
-and the built_in function-call counts, 34753 in all, are:
-= -- 3492
-> -- 1404
-< -- 58
-+ -- 591
-- -- 471
-* -- 3228
-:= -- 6230
-add.period$ -- 148
-call.type$ -- 74
-change.case$ -- 527
-chr.to.int$ -- 68
-cite$ -- 74
-duplicate$ -- 1564
-empty$ -- 2611
-format.name$ -- 613
-if$ -- 6842
+            1079 strings with 15389 characters,
+and the built_in function-call counts, 33441 in all, are:
+= -- 3363
+> -- 1350
+< -- 56
++ -- 568
+- -- 453
+* -- 3109
+:= -- 5989
+add.period$ -- 142
+call.type$ -- 71
+change.case$ -- 506
+chr.to.int$ -- 65
+cite$ -- 71
+duplicate$ -- 1500
+empty$ -- 2512
+format.name$ -- 590
+if$ -- 6584
 int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 74
-newline$ -- 226
-num.names$ -- 296
-pop$ -- 376
+missing$ -- 71
+newline$ -- 217
+num.names$ -- 284
+pop$ -- 361
 preamble$ -- 1
-purify$ -- 453
+purify$ -- 435
 quote$ -- 0
-skip$ -- 898
+skip$ -- 861
 stack$ -- 0
-substring$ -- 2271
-swap$ -- 333
+substring$ -- 2205
+swap$ -- 320
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 666
+type$ -- 639
 warning$ -- 0
-while$ -- 342
+while$ -- 329
 width$ -- 0
-write$ -- 814
+write$ -- 781
+(There was 1 warning)

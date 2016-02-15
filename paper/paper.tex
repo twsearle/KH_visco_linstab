@@ -1,5 +1,5 @@
 %	paper.tex	Toby Searle
-%	Last modified: Fri 12 Feb 17:42:28 2016
+%	Last modified: Mon 15 Feb 2016 18:18:32 GMT
 %	using jfm template
 
 \NeedsTeXFormat{LaTeX2e}
@@ -568,20 +568,39 @@ supports the Pakdel-McKinley condition if we choose to use it.
 
 \section{Problem formulation}\label{sec:KH_problem_formulation}
 
-We propose that in fact, besides the shear banding instability and the
-coextrusion instabilities, there is another mechanism by which a purely elastic
-fluid may become unstable. Using a linear stability analysis we examine a new
+We propose that in fact, besides the shear banding and coextrusion
+instabilities, there is another mechanism by which a purely elastic fluid may
+become unstable. Using a linear stability analysis we examine a new
 Kelvin-Helmholtz like instability in both Oldroyd-B and FENE fluids. A purely
-elastic fluid is found to be unstable at sufficiently high Weissenberg number.
-The growth rate of the largest growing eigenmode of the instability increases
-with increasing Weissenberg number at low Reynolds numbers and this behaviour
-is consistent across both Oldroyd-B and FENE constituitive models.
+elastic fluid is found to be unstable at sufficiently high Weissenberg number
+and this behaviour is consistent across both Oldroyd-B and FENE constituitive
+models.
+
+There are a number of ways we might formulate a shear layer problem. We are
+interested in a generic instability for flows with a sharp change in the
+streamwise velocity, and so large normal stresses in the fluid. Precisely
+because we are searching for a generic mechanism, we will not attempt to
+justify our particular choice of a hyperbolic Cosine shear layer.  As well
+examining the dependence on flow properties ($\beta$, $\Wi$ and $\Rey$) of the
+instability, we are also interested in the influence of boundaries so that we
+might assess the relevence of the instability to common experimental and
+real-life examples of flows of viscoelastic fluids - including both the plane
+Couette and Oscillatory flow problems of \citet{Searle2016b} and
+\citeyear{Searle2016a}. As such we consider a nearly free shear layer (with a
+finite, but large, region of constant velocity between the shear layer and the
+walls) as well as a free shear layer.
+
+\begin{figure}[h]
+    \centering 
+    \includegraphics[width=0.3\textwidth]{{KH_diagram}}
+    \caption{Diagram of a shear layer in a channel.} 
+    \label{fig:KH_diagram} 
+\end{figure}
 
 The flow we consider is a hyperbolic tangent shaped laminar profile for the
 streamwise velocity across a channel, where $y = \pm \Delta$ is the region of
 shear. $y=0$ is the centreline of the channel, so that if $\Delta << 1$ the
-flow can be said to be a free shear instability.  This gives a base flow
-profile, 
+flow tends to a free shear instability. This gives a base flow profile, 
 \begin{align} 
     U(y) &= \tanh \left( y/\Delta
     \right) \coth \left( 1/\Delta \right) \nonumber\\ V &= 0 \nonumber \\
@@ -599,23 +618,26 @@ for all disturbance variables $g = u, v, p, \tau_{i,j}$. Where $N$ is the
 number of Fourier modes, $k$ is the streamwise wavenumber of the disturbance
 and $\lambda$ is the growth rate of the mode. This program uses two domains of
 pseudo-spectral points to give increased resolution in the centre of the
-channel. The analysis was repeated using a code for which the system of points
-was stretched using: 
+channel. The analysis was repeated in the limit of no boundaries on the flow by
+performing a passive transform of the coordinate systems such that, 
 \begin{align} 
-    z_{u} &= \frac{y_{u}}{1-y_{u}} \\
-    z_{b} &= \frac{y_{b}}{1+y_{b}} \\ U     &= \tanh{z/\Delta}
+    z &= \frac{y}{1-y},\hphantom{aaa} z>0 \\
+    z &= \frac{y}{1+y},\hphantom{aaa} z<0 \\ 
+    U &= \tanh{z}
     \label{eq:KH_inf_profile} 
 \end{align} 
-This system ought to be completely insensitive to the boundary conditions at
-the walls so we refer to it as 'free shear' throughout this manuscript. 
+This system ought to be completely insensitive to the boundary
+conditions at the walls so we refer to it as `free shear' throughout this
+manuscript. 
 
 The dimensionless quantities used throughout are non-dimensionalised relative
-to the instability size, $\Delta$, rather than the half channel width. This is
-because $\Delta$ is the length scale for the free shear instability.
+to the instability size, $\Delta$, rather than the half channel width. This
+allows us to effectively examine the dependence of the instability on $\Delta$
+as we approach the free shear limit of $\Delta = 0$.
 
-We used an Oldroyd-B fluid with very low Reynolds number $\Rey \leq 1.0$ and a
-small ratio between the solvent and total viscosities $\beta =
-\frac{\mu_{s}}{\mu_{s}+\mu_{p}}$. This approximates a purely elastic fluid,
+We used an Oldroyd-B fluid at low Reynolds number (typically $\Rey < 10.0$)
+and a small ratio between the solvent and total viscosities $\beta =
+\frac{\mu_{s}}{\mu_{s}+\mu_{p}}$. This approximates a purely elastic flow,
 where the polymer contribution to the stress on the fluid is much larger  than
 the solvent contribution. The Oldroyd-B Navier stokes and constitutive
 equations are then: 
@@ -632,19 +654,10 @@ the advantage of being similarly easy to analyse using our spectral method, but
 also including a finite extensibility for the polymers. This leads to a stress
 which depends on a conformation tensor ($\mathbf{C}$) for the polymer dumbbells
 via a non-linear spring force:
-
 \begin{equation} 
     \mathbf{\tau} = \frac{1-\frac{3}{L^{2}}}{1 +
-	\frac{L^{2}}{tr(\mathbf{C^{2}})}} \label{eq:KH_FENE_stress}
+	\frac{L^{2}}{tr(\mathbf{C^{2}})}} \mathbf{C} \label{eq:KH_FENE_stress}
 \end {equation}
-
-\begin{figure}[h]
-    \centering 
-    \includegraphics[width=0.3\textwidth]{{KH_diagram}}
-    \caption{Diagram of a shear layer} 
-    \label{fig:KH_diagram} 
-\end{figure}
-
 Again, we used Gauss-Labatto points in the wall normal direction and Fourier
 modes in the streamwise direction.
 
@@ -653,15 +666,19 @@ modes in the streamwise direction.
 \section{Purely elastic linear stability analysis}\label{sec:KH_linear_stability_analysis}
 
 At low Reynolds number, low $\beta$ and sufficiently large Weissenberg number
-we observe a free shear instability across a range of streamwise disturbance
-wavenumbers. This leads us to suppose that this instability might be a
-plausible cause for a self-sustaining process in viscoelastic plane Couette
-flow, similar to that observed by Waleffe for Newtonian flows.
+we observe an instability across a range of streamwise disturbance wavenumbers.
+This instability persists for larger $\Delta$, albeit with a fairly complex
+dependence on the boundaries. Before we examine the effect of the walls we will
+consider the instability in the free shear limit.
 
-We see an instability grow from around $k \sim 0.06$ and move to lower $k$ as
-the Weissenberg number increases (figure \ref{fig:KH_inf_dispersions_vary_Wi}). The
-height of the instability also increases with increasing Weissenberg number
-(figure \ref{fig:KH_inf_disp_height_vary_Wi}). 
+\subsection{Free shear layer}
+
+For a free shear layer we observe an instability grow from around $k \sim 0.06$
+and move to lower wavenumber as the Weissenberg number increases. The
+dispersion relations shown in figure \ref{fig:KH_inf_dispersions_vary_Wi} show
+this dependence of the unstable eigenvalues on $\Wi$. The dispersion relation
+for the instability remains broad in $k$ until $Wi \sim 100$ where a new
+eigenvector becomes dominant.
 
 \begin{figure} 
     \centering 
@@ -686,10 +703,13 @@ height of the instability also increases with increasing Weissenberg number
     } 
 \end{figure}
 
-The dispersion relation saturates at $Wi \sim 50$ and remains approximately
-constant with increasing Weissenberg number. The dispersion relation for the
-instability remains broad in $k$ until $Wi \sim 100$ where a new eigenvector
-becomes dominant.
+The height of the instability also increases with increasing Weissenberg
+number. Extracting the peak growth rate from the dispersion relations at a
+fixed $\Rey$ for various $\Wi$ allows us to show how the instability depends on
+both $\beta$ and $\Wi$ (figure \ref{fig:KH_inf_disp_height_vary_Wi}). The
+maximum growth rate saturates at $Wi \sim 50$ and remains approximately
+constant with increasing Weissenberg number. The slight nonmonotonicity in the
+curve is the result of the switchover in the dominant instability eigenmode. 
 
 \begin{figure} 
     \centering 
@@ -713,20 +733,29 @@ becomes dominant.
     }
 \end{figure}
 
-As the Reynold's number is reduced, new eigenvalues become dominant. Although
-the dominant eigenvalue changes the flow is still unstable, even down to $\Rey
-= 0.01$ (see figures \ref{fig:KH_inf_disp_height_vary_Re} and \ref{fig:KH_dispersions_vary_Re}).
+As the Reynold's number is reduced the Newtonian Kelvin-Helmholtz instability
+disappears and an entirely separate, purely elastic instability arises.
+Although the dominant eigenvalue changes often as $\Rey$ decreases,  the flow
+is still unstable even down to $\Rey = 0.01$ (see figures
+\ref{fig:KH_inf_disp_height_vary_Re} and \ref{fig:KH_dispersions_vary_Re}).
+Again, the complicated dependence on $\Rey$ appears to be due to the appearance
+and disappearance of new dominant eigenmodes of the instability.
 
 \FloatBarrier
 
 \subsection{Shear instability with walls}
 
-Now we use equations \ref{eq:KH_laminar_profile} and examine the unstretched
-pseudospectral domain. To validate the code, we examine the high Reynolds
-number regime. We see the height of the instability decrease with increasing
+Now we use equations \ref{eq:KH_laminar_profile} for a two dimensional flow
+with boundaries.  To validate our approach, we examine the high Reynolds number
+regime in order to recover a Newtonian Kelvin-Helmholtz instability. At high
+Reynolds number the instability is insensitive to the distance to the walls
+when $\Delta =0.1$ (figure \ref{fig:KH_high_Re_walls_dependence}) and is
+consistent with the Kelvin-Helmholtz instability given in \citet{Criminale2003}.
+
+We see the maximum growth rate of the instability decrease with increasing
 Weissenburg number, and this trend is stronger for smaller $\beta$ (figure
 \ref{fig:KH_drag_reduction}). This is the same behaviour reported in
-\cite{Azaiez1994}.
+\cite{Azaiez1994} for the Kelvin-Helmholtz instability of a polymeric fluid.
 
 \begin{figure}[h]
     \centering
@@ -743,25 +772,24 @@ Weissenburg number, and this trend is stronger for smaller $\beta$ (figure
 %   \showthe\columnwidth %use this to determine size of figures.
     \centering \includegraphics[width=0.7\textwidth]{{KH_high_Re_vary_Wi}}
     \caption{ 
-	Peak growth rate against Weissenberg number at $\Rey = 1000$,
-	$\Delta = 0.1$ The height of the dispersion relation is reduced for the
+	Peak growth rate against Weissenberg number at $\Rey = 1000$, $\Delta =
+	0.1$ The height of the dispersion relation is reduced for the
 	Kelvin-Helmholtz instability as the Weissenberg number is increased.
 	The grey dashed line is the height of the dispersion relation for the
 	Newtonian fluid. The decrease in $\lambda_{r}$ corresponds to increased
-	stability of the base flow, this matches the observations made in \cite{Azaiez1994}} 
+	stability of the base flow, this matches the observations made in
+	\cite{Azaiez1994}
+    } 
     \label{fig:KH_drag_reduction} 
 \end{figure}
 
-The instability remains present under variation of $\Delta$ at low $\Delta$. At
-$\Delta =0.1$ the instability is still present for $\Rey < 0.01$ far lower than
-the usual threshold of $\Rey \sim 1000$ for a Newtonian Kelvin-Helmholtz
-instability (figure \ref{fig:KH_walls_vary_Re}).
-
-At high Reynolds number the instability is insensitive to the distance to the
-walls when $\Delta =0.1$ (figure \ref{fig:KH_high_Re_walls_dependence}). At low
-Reynolds number, the width of the channel is more important but the instability
-is still present for very low $\Delta$ (figure
-\ref{fig:KH_low_Re_walls_dependence}). 
+At low Reynolds number, we can examine the purely elastic shear layer
+instability of above. In this case find that the width of the channel has a
+greater affect on the instablity of the flow. However, the flow is still
+unstable at very low $\Delta$ (figure \ref{fig:KH_low_Re_walls_dependence}). At
+$\Delta = 0.1$ the flow is unstable for $\Rey < 0.01$ far lower than the usual
+threshold of $\Rey \sim 1000$ for a Newtonian Kelvin-Helmholtz instability
+(figure \ref{fig:KH_walls_vary_Re}).
 
 \begin{figure}[h]
     \centering 
@@ -827,20 +855,20 @@ instability.
     }
 \end{figure}
 
-As $\Delta$ decreases for a particular purely elastic instability, the size of
-the velocities expands slightly but in the limit of very small $\Delta$ the
-eigenvector appears independent of the walls (figures
-\ref{fig:KH_psi_low_delta} and \ref{fig:KH_psi_high_delta}). The large width
-vortices in our purely elastic case, seem to correspond to the larger
-elasticity ($G~\Wi/\Rey$) eigenvectors in \citet{Azaiez1994}. Their $G=5$ case
-would only correspond to $\Wi=0.5$ for $\Re=0.1$ in our purely elastic
-instability, so it is a completely different, inertial instability that they
-observe (\citet{Azaiez1994} figure 8). Nonetheless at least one of their
-observations does apply. The fact that the velocity disturbance is essentially
-zero in the center of the channel, implies that the shear layer will be less
-likely to roll up. In the Newtonian instability, net velocities within the
-shear layer will distort its shape, however the purely elastic instability
-appears to have less of an effect on the shear layer.
+As $\Delta$ decreases for a particular purely elastic instability, the width of
+the instability increases slightly, however in the limit of very small $\Delta$
+the eigenvector appears independent of the walls (figures
+\ref{fig:KH_psi_low_delta} and \ref{fig:KH_psi_high_delta}). The extended
+vortices in our purely elastic case seem to correspond to the eigenvectors in
+\citet{Azaiez1994} at larger elasticity ($G \sim \Wi/\Rey$) . Their $G=5$ case would
+correspond to only $\Wi=0.5$ for $\Rey=0.1$ in our units, such that the
+instability they observe is still the inertial instability ( see
+\citet{Azaiez1994} figure 8). Nonetheless at least one of their observations
+does apply. The fact that the velocity disturbance is essentially zero in the
+center of the channel, implies that the shear layer will be less likely to roll
+up. In the Newtonian instability, net velocities within the shear layer will
+distort its shape, however the purely elastic instability appears to have less
+of an effect on the shear layer.
 
 \begin{figure}[h]
     \centering 
@@ -858,8 +886,8 @@ instability, this makes a true $\Rey = 0$ instability difficult for us to
 observe. In order to remove the dependence on the walls and recover a free
 shear instability it is necessary to move them further away. This problem gets
 worse at lower $\Rey$.  By introducing just a very small contribution from
-inertia, we can remove the dependence on the walls. This is why all of our
-results are taken for $\Rey \lesssim 0.1$ on the length scale of the
+inertia, we can remove the dependence on the walls. This is partly why all of
+our results are taken for $\Rey \lesssim 0.1$ on the length scale of the
 instability.
 
 The analysis for the system in the channel has implications for the plane
